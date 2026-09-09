@@ -1,0 +1,633 @@
+{
+    "list": {
+        "1": [
+            null,
+            "我的事件1",
+            ""
+        ],
+        "14": [
+            null,
+            ""
+        ],
+        "15": [
+            null,
+            "启动游戏",
+            "档案初始化",
+            "新的档案-开始",
+            "新的档案-完成",
+            "读取档案-开始",
+            "读取档案-完成",
+            "读取档案-失败",
+            "储存档案-成功",
+            "储存档案-失败",
+            "进入场景",
+            "离开场景",
+            "点击事件-开始",
+            "碰触事件-开始",
+            "离开碰触-开始",
+            "出现事件-开始",
+            "对象行为-开始",
+            "对象行为-结束",
+            "行动后",
+            "关闭战斗画面",
+            "战斗触发",
+            "战斗开始",
+            "胜负满足",
+            "战斗结束",
+            "角色出场",
+            "更换位置",
+            "更换朝向",
+            "更换位置-开始",
+            "更换位置-结束",
+            "更换朝向-开始",
+            "更换朝向-结束",
+            "新的回合",
+            "先行方行动",
+            "后行方行动",
+            "结算阶段",
+            "普通攻击",
+            "使用技能",
+            "使用道具",
+            "击杀奖励",
+            "战斗者出现",
+            "战斗者待机-开始",
+            "战斗者待机-结束",
+            "战斗者死亡",
+            "清理战斗者",
+            "升级时事件",
+            "战斗者复活",
+            "击中奖励-显示",
+            "击中奖励-隐藏",
+            "脚步声-通用",
+            "战斗画面-全屏",
+            "战斗画面-迷你",
+            "战斗画面-未来"
+        ],
+        "16": [
+            null,
+            "菜单",
+            "开始奔跑",
+            "停止奔跑",
+            "标题界面菜单",
+            "",
+            "",
+            "",
+            "",
+            "提示文本",
+            "打开更改朝向界面",
+            "关闭更改朝向界面",
+            "",
+            "关闭全部战斗相关菜单",
+            "打开战斗者菜单",
+            "关闭战斗者菜单",
+            "打开战斗通用菜单",
+            "关闭战斗通用菜单",
+            "打开战斗技能栏",
+            "关闭战斗技能栏",
+            "恢复战斗技能栏",
+            "打开战斗道具栏",
+            "关闭战斗道具栏",
+            "恢复战斗道具栏",
+            "打开战斗状态栏",
+            "关闭战斗状态栏",
+            "",
+            "显示当前战斗者头像栏",
+            "关闭当前战斗者头像栏",
+            "",
+            "显示目标战斗者头像栏",
+            "关闭目标战斗者头像栏",
+            "",
+            "打开交换道具栏",
+            "关闭交换道具栏",
+            ""
+        ]
+    },
+    "type": {
+        "1": "",
+        "2": "",
+        "13": "",
+        "16": "模板预设"
+    },
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "isDirectory": true,
+                "children": [
+                    {
+                        "id": 14001,
+                        "name": "启动游戏",
+                        "children": []
+                    },
+                    {
+                        "isDirectory": true,
+                        "children": [
+                            {
+                                "id": 14002,
+                                "name": "档案初始化",
+                                "children": []
+                            },
+                            {
+                                "id": 14003,
+                                "name": "新的档案-开始",
+                                "children": []
+                            },
+                            {
+                                "id": 14004,
+                                "name": "新的档案-完成",
+                                "children": [],
+                                "isOpen": true
+                            },
+                            {
+                                "id": 14005,
+                                "name": "读取档案-开始",
+                                "children": []
+                            },
+                            {
+                                "id": 14006,
+                                "name": "读取档案-完成",
+                                "children": []
+                            },
+                            {
+                                "id": 14007,
+                                "name": "读取档案-失败",
+                                "children": []
+                            },
+                            {
+                                "id": 14008,
+                                "name": "储存档案-成功",
+                                "children": []
+                            },
+                            {
+                                "id": 14009,
+                                "name": "储存档案-失败",
+                                "children": []
+                            }
+                        ],
+                        "isOpen": true,
+                        "name": "游戏档案",
+                        "id": null
+                    },
+                    {
+                        "isDirectory": true,
+                        "children": [
+                            {
+                                "id": 14010,
+                                "name": "进入场景",
+                                "children": []
+                            },
+                            {
+                                "id": 14011,
+                                "name": "离开场景",
+                                "children": []
+                            }
+                        ],
+                        "isOpen": true,
+                        "name": "场景事件",
+                        "id": null
+                    },
+                    {
+                        "isDirectory": true,
+                        "children": [
+                            {
+                                "id": 14012,
+                                "name": "点击事件-开始",
+                                "children": []
+                            },
+                            {
+                                "id": 14013,
+                                "name": "碰触事件-开始",
+                                "children": []
+                            },
+                            {
+                                "id": 14014,
+                                "name": "离开碰触-开始",
+                                "children": []
+                            },
+                            {
+                                "id": 14015,
+                                "name": "出现事件-开始",
+                                "children": []
+                            },
+                            {
+                                "id": 14016,
+                                "name": "对象行为-开始",
+                                "children": [],
+                                "isOpen": true
+                            },
+                            {
+                                "id": 14017,
+                                "children": [],
+                                "isOpen": true,
+                                "name": "对象行为-结束"
+                            }
+                        ],
+                        "isOpen": true,
+                        "name": "场景对象事件",
+                        "id": null
+                    },
+                    {
+                        "isDirectory": true,
+                        "children": [
+                            {
+                                "id": 15001,
+                                "name": "菜单",
+                                "children": []
+                            },
+                            {
+                                "id": 15002,
+                                "name": "开始奔跑",
+                                "children": []
+                            },
+                            {
+                                "id": 15003,
+                                "name": "停止奔跑",
+                                "children": []
+                            },
+                            {
+                                "id": 15004,
+                                "children": [],
+                                "isOpen": true,
+                                "name": "标题界面菜单"
+                            }
+                        ],
+                        "isOpen": true,
+                        "name": "通用",
+                        "id": null
+                    },
+                    {
+                        "isDirectory": true,
+                        "children": [
+                            {
+                                "isDirectory": true,
+                                "children": [
+                                    {
+                                        "id": 14020,
+                                        "name": "战斗触发",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14021,
+                                        "name": "战斗开始",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14022,
+                                        "name": "胜负满足",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14023,
+                                        "name": "战斗结束",
+                                        "children": []
+                                    }
+                                ],
+                                "isOpen": true,
+                                "name": "主要流程",
+                                "id": null
+                            },
+                            {
+                                "isDirectory": true,
+                                "children": [
+                                    {
+                                        "id": 14024,
+                                        "name": "角色出场",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14025,
+                                        "name": "更换位置",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14026,
+                                        "name": "更换朝向",
+                                        "children": []
+                                    }
+                                ],
+                                "isOpen": true,
+                                "name": "准备阶段",
+                                "id": null
+                            },
+                            {
+                                "isDirectory": true,
+                                "children": [
+                                    {
+                                        "id": 14031,
+                                        "name": "新的回合",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14032,
+                                        "name": "先行方行动",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14033,
+                                        "name": "后行方行动",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14034,
+                                        "name": "结算阶段",
+                                        "children": []
+                                    }
+                                ],
+                                "isOpen": true,
+                                "name": "战斗回合流程",
+                                "id": null
+                            },
+                            {
+                                "isDirectory": true,
+                                "children": [
+                                    {
+                                        "id": 14035,
+                                        "name": "普通攻击",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14036,
+                                        "name": "使用技能",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14037,
+                                        "name": "使用道具",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14038,
+                                        "name": "击杀奖励",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14018,
+                                        "name": "行动后",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14046,
+                                        "children": [],
+                                        "isOpen": true,
+                                        "name": "击中奖励-显示"
+                                    },
+                                    {
+                                        "id": 14047,
+                                        "children": [],
+                                        "isOpen": true,
+                                        "name": "击中奖励-隐藏"
+                                    },
+                                    {
+                                        "id": 14019,
+                                        "name": "关闭战斗画面",
+                                        "children": []
+                                    }
+                                ],
+                                "isOpen": true,
+                                "name": "战斗行为",
+                                "id": null
+                            },
+                            {
+                                "isDirectory": true,
+                                "children": [
+                                    {
+                                        "id": 14027,
+                                        "name": "更换位置-开始",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14028,
+                                        "name": "更换位置-结束",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14029,
+                                        "name": "更换朝向-开始",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14030,
+                                        "name": "更换朝向-结束",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14039,
+                                        "name": "战斗者出现",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14040,
+                                        "name": "战斗者待机-开始",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14041,
+                                        "name": "战斗者待机-结束",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14042,
+                                        "name": "战斗者死亡",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14043,
+                                        "name": "清理战斗者",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14044,
+                                        "name": "升级时事件",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 14045,
+                                        "children": [],
+                                        "isOpen": true,
+                                        "name": "战斗者复活"
+                                    },
+                                    {
+                                        "id": 14048,
+                                        "children": [],
+                                        "isOpen": true,
+                                        "name": "脚步声-通用"
+                                    }
+                                ],
+                                "isOpen": true,
+                                "name": "战斗者事件",
+                                "id": null
+                            },
+                            {
+                                "isDirectory": true,
+                                "children": [
+                                    {
+                                        "id": 15009,
+                                        "name": "提示文本",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15010,
+                                        "name": "打开更改朝向界面",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15011,
+                                        "name": "关闭更改朝向界面",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15013,
+                                        "name": "关闭全部战斗相关菜单",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15014,
+                                        "name": "打开战斗者菜单",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15015,
+                                        "name": "关闭战斗者菜单",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15016,
+                                        "name": "打开战斗通用菜单",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15017,
+                                        "name": "关闭战斗通用菜单",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15018,
+                                        "name": "打开战斗技能栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15019,
+                                        "name": "关闭战斗技能栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15020,
+                                        "name": "恢复战斗技能栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15021,
+                                        "name": "打开战斗道具栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15022,
+                                        "name": "关闭战斗道具栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15023,
+                                        "name": "恢复战斗道具栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15024,
+                                        "name": "打开战斗状态栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15025,
+                                        "name": "关闭战斗状态栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15033,
+                                        "name": "打开交换道具栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15034,
+                                        "name": "关闭交换道具栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15027,
+                                        "name": "显示当前战斗者头像栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15028,
+                                        "name": "关闭当前战斗者头像栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15030,
+                                        "name": "显示目标战斗者头像栏",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 15031,
+                                        "name": "关闭目标战斗者头像栏",
+                                        "children": []
+                                    }
+                                ],
+                                "isOpen": true,
+                                "name": "战斗菜单",
+                                "id": null
+                            },
+                            {
+                                "isDirectory": true,
+                                "children": [
+                                    {
+                                        "id": 14049,
+                                        "children": [],
+                                        "isOpen": true,
+                                        "name": "战斗画面-全屏"
+                                    },
+                                    {
+                                        "id": 14050,
+                                        "children": [],
+                                        "isOpen": true,
+                                        "name": "战斗画面-迷你"
+                                    },
+                                    {
+                                        "id": 14051,
+                                        "children": [],
+                                        "isOpen": true,
+                                        "name": "战斗画面-未来"
+                                    }
+                                ],
+                                "isOpen": true,
+                                "name": "战斗设定",
+                                "id": null
+                            }
+                        ],
+                        "isOpen": true,
+                        "name": "战斗事件",
+                        "id": null
+                    }
+                ],
+                "isOpen": false,
+                "name": "系统事件",
+                "id": null
+            },
+            {
+                "isDirectory": true,
+                "children": [
+                    {
+                        "id": 1,
+                        "children": [],
+                        "isOpen": true,
+                        "name": "我的事件1"
+                    }
+                ],
+                "isOpen": true,
+                "name": "我的事件",
+                "id": null
+            }
+        ],
+        "isOpen": true,
+        "name": "[#GAME_THE_EVENT_STORE]"
+    },
+    "dataShowMode": 1
+}

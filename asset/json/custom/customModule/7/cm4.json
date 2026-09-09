@@ -1,0 +1,159 @@
+{
+    "attrs": {
+        "lvUpAutoGetSkills": {
+            "varType": 9,
+            "value": [
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 2,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 10,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 4,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 11,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 6,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 12,
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        },
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/control/icon_occupation_3.png",
+            "copy": false
+        },
+        "levelUpEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "equipSetting": {
+            "varType": 6,
+            "value": [
+                3,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "copy": false
+        },
+        "MaxHPGrow": {
+            "varType": 1,
+            "value": "[[0,0,12.10901490466668,99,750,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MaxSPGrow": {
+            "varType": 1,
+            "value": "[[0,0,16.783924954695763,99,600,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MAGGrow": {
+            "varType": 1,
+            "value": "[[0,0,7.438794726930354,99,70,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "needEXPGrow": {
+            "varType": 1,
+            "value": "[[0,0,1.6007532956685537,99,5000,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "成长设定": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "ATKGrow": {
+            "varType": 1,
+            "value": "[[0,0,9.19540229885061,99,350,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "DEFGrow": {
+            "varType": 1,
+            "value": "[[0,0,4.789272030651347,99,120,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "DODGrow": {
+            "varType": 1,
+            "value": "[[0,0,17.04980842911874,99,35,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MAGDEFGrow": {
+            "varType": 1,
+            "value": "[[0,0,4.597701149425319,99,50,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "passiveStatus": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "specialAbility": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "isCustomAttribute": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "selfStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "selfImmuneStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetSelfAddStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "specialBattleEffect": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        },
+        "customAttributes": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        }
+    },
+    "id": 4
+}

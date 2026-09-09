@@ -1,0 +1,19 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 4003,
+    "blockList": [
+        {
+            "name": "允许使用菜单",
+            "blockAttrs": [],
+            "blockCondition": [],
+            "blockHeight": 35,
+            "autoOrder": true,
+            "cmdColor": "#59acff",
+            "hideBlockTitle": false,
+            "cmdIcon": "asset/image/command/eP_icon_Menu_blue.png"
+        }
+    ],
+    "isCustomPhraseDesc": false,
+    "compAutoOrder": false,
+    "fastModifyAttribute": false
+}

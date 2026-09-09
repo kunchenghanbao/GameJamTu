@@ -1,0 +1,197 @@
+{
+    "initData": true,
+    "previewMode": false,
+    "dialogBox": {
+        "x": 175,
+        "y": 640,
+        "width": 1250,
+        "height": 244,
+        "alpha": 1,
+        "image": "asset/image/picture/control/dialogBgRight.png",
+        "flip": false,
+        "grid9": "0,500,0,200,0",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 0
+    },
+    "headBox": {
+        "x": 1080,
+        "y": 466,
+        "width": 180,
+        "height": 180,
+        "alpha": 1,
+        "locksize": true,
+        "adaptation": true,
+        "previewHeadImg": "asset/image/picture/face/physician/Physician_normal.png",
+        "flip": false,
+        "perviewMode": 0,
+        "previewStandAvatarID": 1,
+        "previewStandAvatarExp": 0,
+        "previewAnimationID": 0,
+        "previewUIID": 0,
+        "viewscaleX": 0.4,
+        "viewscaleY": 0.4,
+        "viewFps": 12,
+        "viewPlayOnce": false,
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 1
+    },
+    "optionBox": {
+        "x": 525,
+        "y": 125,
+        "width": 550,
+        "height": 72,
+        "alpha": 1,
+        "column": 1,
+        "columnSpaceing": 5,
+        "row": 2,
+        "rowSpaceing": 40,
+        "image1": "asset/image/picture/control/option_normal.png",
+        "grid9img1": "0,200,0,200,0",
+        "image2": "asset/image/picture/control/option_over.png",
+        "grid9img2": "0,200,0,200,0",
+        "image3": "asset/image/picture/control/option_click.png",
+        "grid9img3": "0,200,0,200,0",
+        "overSe": "",
+        "overVolume": 1,
+        "overPitch": 1,
+        "clickSe": "",
+        "clickVolume": 1,
+        "clikcPitch": 1,
+        "selectImageURL": "asset/image/picture/control/option_over.png",
+        "grid9img4": "0,200,0,200,0",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 2
+    },
+    "dialog": {
+        "x": 300,
+        "y": 708,
+        "width": 1010,
+        "height": 140,
+        "alpha": 1,
+        "fontSize": 24,
+        "color": "#331f0f",
+        "bold": true,
+        "italic": false,
+        "smooth": true,
+        "align": 0,
+        "leading": 10,
+        "letterSpacing": 0,
+        "font": "Source_Han_Sans",
+        "shadowEnabled": false,
+        "shadowColor": "#000000",
+        "shadowDx": 1,
+        "shadowDy": 1,
+        "stroke": 0,
+        "strokeColor": "#333333",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "wordWrap": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 3,
+        "valign": 0
+    },
+    "option": {
+        "x": 525,
+        "y": 144,
+        "width": 550,
+        "height": 35,
+        "alpha": 1,
+        "fontSize": 26,
+        "color": "#fffae5",
+        "overColor": "#fffae5",
+        "clickColor": "#fffae5",
+        "bold": true,
+        "italic": false,
+        "smooth": true,
+        "align": 1,
+        "leading": 0,
+        "letterSpacing": 0,
+        "font": "Source_Han_Sans",
+        "valign": 1,
+        "shadowEnabled": false,
+        "shadowColor": "#000000",
+        "shadowDx": 1,
+        "shadowDy": 1,
+        "stroke": 0,
+        "strokeColor": "#000000",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 4
+    },
+    "nameBox": {
+        "x": 1065,
+        "y": 659,
+        "width": 210,
+        "height": 24,
+        "alpha": 1,
+        "fontSize": 24,
+        "color": "#FFFFFF",
+        "bold": true,
+        "italic": false,
+        "smooth": true,
+        "align": 1,
+        "leading": 0,
+        "letterSpacing": 0,
+        "font": "Source_Han_Sans",
+        "valign": 1,
+        "shadowEnabled": false,
+        "shadowColor": "#000000",
+        "shadowDx": 1,
+        "shadowDy": 1,
+        "stroke": 0,
+        "strokeColor": "#000000",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 5
+    },
+    "skipBox": {
+        "x": 1275,
+        "y": 823,
+        "width": 0,
+        "height": 1,
+        "alpha": 1,
+        "posIndex": 0,
+        "posX": 0,
+        "posY": 0,
+        "animationID": 1005,
+        "scaleNumber": 1,
+        "playType": 2,
+        "delayTime": 0,
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "index": 6
+    },
+    "id": 2
+}

@@ -1,0 +1,25 @@
+{
+    "preLayer": [
+        {
+            "varName": "ani",
+            "type": 5,
+            "idList": [
+                1,
+                3
+            ],
+            "isPreView": true,
+            "inEditorShowMode": 0,
+            "moduleID": 3
+        }
+    ],
+    "varAttributes": [],
+    "attrConditions": [
+        []
+    ],
+    "presetModules": [],
+    "serverInstanceClassName": "",
+    "clientInstanceClassName": "",
+    "supportTriggerTypes": [],
+    "supportStatusPage": true,
+    "id": 3
+}

@@ -1,0 +1,94 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 1002,
+    "blockList": [
+        {
+            "name": "dropEquip",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "52576157833_0.19688768307412374",
+                        "varName": "dropProbability",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 0,
+                            "compParam": {}
+                        },
+                        "defaultValue": "100",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "掉落几率",
+                        "onlyConfig": false,
+                        "preview": true,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 13,
+                    "x": 10,
+                    "width": 130,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "52576175633_0.8379254461812999",
+                        "varName": "equip",
+                        "varType": 4,
+                        "compData": {
+                            "compType": 1002,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 9,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "掉落装备",
+                        "onlyConfig": false,
+                        "preview": true,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 13,
+                    "x": 121,
+                    "width": 252,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 67,
+            "autoOrder": true,
+            "hideBlockTitle": false
+        }
+    ],
+    "varName": "dropEquip"
+}

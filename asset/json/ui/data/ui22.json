@@ -1,0 +1,782 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "146013717835_0.634682846111948",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "指令背景",
+                "x": 1000,
+                "y": 9,
+                "width": 689,
+                "height": 882,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/instruct_bg.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "53053872254_0.20977862332509156",
+                "condition": [],
+                "type": "UIButton",
+                "name": "移动按钮",
+                "x": 1104,
+                "y": 165,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "移动",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015602486_0.19897916763381596",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "移动图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_1.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "53053878018_0.7029521473486793",
+                "condition": [],
+                "type": "UIButton",
+                "name": "攻击按钮",
+                "x": 1129,
+                "y": 240,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "攻击",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015696586_0.643942306024379",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "攻击图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_2.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "53053899933_0.2619311734209009",
+                "condition": [],
+                "type": "UIButton",
+                "name": "技能按钮",
+                "x": 1149,
+                "y": 315,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "技能",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015726724_0.981566394926185",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "技能图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_3.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "53053906475_0.3491458109633996",
+                "condition": [],
+                "type": "UIButton",
+                "name": "道具按钮",
+                "x": 1154,
+                "y": 390,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "道具",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015756547_0.21236271418176567",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "道具图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_4.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "90027995977_0.9167789750711952",
+                "condition": [],
+                "type": "UIButton",
+                "name": "交换按钮",
+                "x": 1154,
+                "y": 465,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "交换",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015775129_0.6452567320237923",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "交换图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_5.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "54089273212_0.3892256223268242",
+                "condition": [],
+                "type": "UIButton",
+                "name": "待机按钮",
+                "x": 1144,
+                "y": 540,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "待机",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015863048_0.11494969388102172",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "待机图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_6.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "53053932899_0.429994949127285",
+                "condition": [],
+                "type": "UIButton",
+                "name": "状态按钮",
+                "x": 1129,
+                "y": 615,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "状态",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015891621_0.6920142408964947",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "待机图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_7.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "179001234567_0.2457813349123456",
+                "condition": [],
+                "type": "UIButton",
+                "name": "装备按钮",
+                "x": 1129,
+                "y": 690,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "装备",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "53089228908_0.2122277003786437",
+                "condition": [],
+                "type": "UIButton",
+                "name": "返回按钮",
+                "x": 1104,
+                "y": 765,
+                "width": 178,
+                "height": 70,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "返回",
+                "image1": "asset/image/picture/control/btn_instruct_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_instruct_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_instruct_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 24,
+                "color": "#fffae5",
+                "overColor": "#fcf400",
+                "clickColor": "#fcf400",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 20,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "146015903064_0.05773960864744132",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "返回图标",
+                        "x": 10,
+                        "y": 13,
+                        "width": 45,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/instruct_8.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            },
+            {
+                "id": "146014516320_0.03398406196303605",
+                "condition": [],
+                "type": "UIString",
+                "name": "文本",
+                "x": 1141,
+                "y": 108,
+                "width": 157,
+                "height": 36,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "行动指令",
+                "fontSize": 32,
+                "color": "#fffae5",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": false,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000",
+                "onChangeFragEvent": null
+            }
+        ]
+    },
+    "id": 22,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

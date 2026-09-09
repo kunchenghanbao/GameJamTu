@@ -1,0 +1,293 @@
+{
+    "totalFrame": 23,
+    "imageSources": [
+        null,
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGrid/3.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/1.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/2.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/3.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/4.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/5.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/6.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/7.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/8.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/9.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/10.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/11.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/12.png"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48,
+            "url": "asset/image/animation/gameFlow/moveGridFlash2/13.png"
+        }
+    ],
+    "layers": [
+        {
+            "type": 1,
+            "name": "layer1",
+            "children": [],
+            "frames": [
+                {
+                    "index": 0,
+                    "horizontalReversal": false,
+                    "x": -22,
+                    "y": -22,
+                    "rotation": 0,
+                    "alpha": 0.7,
+                    "width": 44,
+                    "height": 44,
+                    "imageSource": 1,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "frameinterpolationEnabled": true
+                },
+                {
+                    "index": 11,
+                    "horizontalReversal": false,
+                    "x": -22,
+                    "y": -22,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "width": 44,
+                    "height": 44,
+                    "imageSource": 1,
+                    "signalId": 0,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "frameinterpolationEnabled": true
+                },
+                {
+                    "index": 22,
+                    "horizontalReversal": false,
+                    "x": -22,
+                    "y": -22,
+                    "rotation": 0,
+                    "alpha": 0.7,
+                    "width": 44,
+                    "height": 44,
+                    "imageSource": 1,
+                    "signalId": 0,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "frameinterpolationEnabled": true
+                }
+            ],
+            "isHitEffect": false,
+            "ishide": false,
+            "islock": false
+        },
+        {
+            "type": 1,
+            "name": "layer",
+            "children": [],
+            "frames": [
+                {
+                    "index": 0,
+                    "frameinterpolationEnabled": true,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "horizontalReversal": false,
+                    "x": -21,
+                    "y": -21,
+                    "rotation": 0,
+                    "alpha": 0.5,
+                    "width": 42,
+                    "height": 42,
+                    "imageSource": 2
+                },
+                {
+                    "index": 5,
+                    "horizontalReversal": false,
+                    "x": -21,
+                    "y": -21,
+                    "rotation": 0,
+                    "alpha": 0.5,
+                    "width": 42,
+                    "height": 42,
+                    "imageSource": 2,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "frameinterpolationEnabled": true
+                },
+                {
+                    "index": 11,
+                    "horizontalReversal": false,
+                    "x": -21,
+                    "y": -21,
+                    "rotation": 0,
+                    "alpha": 0.5,
+                    "width": 42,
+                    "height": 42,
+                    "imageSource": 8,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "frameinterpolationEnabled": true
+                },
+                {
+                    "index": 15,
+                    "frameinterpolationEnabled": true,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "horizontalReversal": false,
+                    "x": -21,
+                    "y": -21,
+                    "rotation": 0,
+                    "alpha": 0.5,
+                    "width": 42,
+                    "height": 42,
+                    "imageSource": 13
+                },
+                {
+                    "index": 17,
+                    "horizontalReversal": false,
+                    "x": -21,
+                    "y": -21,
+                    "rotation": 0,
+                    "alpha": 0.5,
+                    "width": 42,
+                    "height": 42,
+                    "imageSource": 15,
+                    "signalId": 0,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "frameinterpolationEnabled": true
+                }
+            ],
+            "isHitEffect": false,
+            "ishide": false,
+            "islock": false
+        },
+        {
+            "type": 0,
+            "name": "目标层",
+            "children": [],
+            "frames": [
+                {
+                    "index": 0,
+                    "x": 0,
+                    "y": 0,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "frameinterpolationEnabled": true
+                }
+            ],
+            "isHitEffect": false,
+            "ishide": false,
+            "islock": false
+        }
+    ],
+    "isParticle": false,
+    "id": 1019,
+    "particleData": null
+}

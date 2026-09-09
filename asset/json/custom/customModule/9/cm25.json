@@ -1,0 +1,16 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/Knuckle_5.png", "copy": false },
+        "intro": { "varType": 1, "value": "精金打造的宗师战拳，攻守转换间几乎没有多余重量。", "copy": false },
+        "sell": { "varType": 0, "value": 500, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 1, "copy": false },
+        "type": { "varType": 0, "value": 11, "copy": false },
+        "quality": { "varType": 0, "value": 5, "copy": false },
+        "atk": { "varType": 0, "value": 65, "copy": false },
+        "hit": { "varType": 0, "value": 12, "copy": false },
+        "dod": { "varType": 0, "value": 8, "copy": false },
+        "crit": { "varType": 0, "value": 15, "copy": false }
+    },
+    "id": 25
+}

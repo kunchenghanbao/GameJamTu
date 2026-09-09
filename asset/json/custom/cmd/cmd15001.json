@@ -1,0 +1,52 @@
+{
+    "id": 15001,
+    "blockList": [
+        {
+            "name": "未命名块",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "44193081288_0.8905331475382174",
+                        "varName": "unlockID",
+                        "varType": 4,
+                        "compData": {
+                            "compType": 1002,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": true,
+                        "moduleID": 21,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "解锁",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100
+                    },
+                    "attrConditions": [],
+                    "y": 8,
+                    "x": 9,
+                    "width": 236,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 48,
+            "autoOrder": true,
+            "hideBlockTitle": true,
+            "cmdColor": "#00ff04"
+        }
+    ],
+    "isCustomPhraseDesc": false,
+    "name": "解锁怪物图鉴"
+}

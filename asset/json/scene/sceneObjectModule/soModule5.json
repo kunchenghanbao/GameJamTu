@@ -1,0 +1,1452 @@
+{
+    "preLayer": [],
+    "varAttributes": [
+        {
+            "id": "184977818981_0.9879079694876487",
+            "varName": "type",
+            "varType": 0,
+            "compData": {
+                "compType": 2,
+                "compParam": {
+                    "items": "灯光,阴影",
+                    "showIndex": false
+                }
+            },
+            "defaultValue": "",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "类别",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.992696678508671",
+            "varName": "shadowType",
+            "varType": 0,
+            "compData": {
+                "compType": 2,
+                "compParam": {
+                    "items": "固定显示,受灯光影响",
+                    "showIndex": false
+                }
+            },
+            "defaultValue": "",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "\\n固定显示：阴影仅根据设定参数显示，不会受到光照影响。\\n受光照影响：会受到同组的光照影响，动态改变阴影的透明度、缩放、旋转度（仅受一个光照影响）",
+            "alias": "阴影类型",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.13590957226585143",
+            "varName": "shadowStyle",
+            "varType": 0,
+            "compData": {
+                "compType": 2,
+                "compParam": {
+                    "items": "行走图,图片",
+                    "showIndex": false
+                }
+            },
+            "defaultValue": "",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "\\n行走图：根据当前行走图自动生成对应的阴影（动作、方向和帧数会同步）\\n图片：指定一张图片",
+            "alias": "阴影样式",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.5072881417407451",
+            "varName": "shadowImage",
+            "varType": 1,
+            "compData": {
+                "compType": 22,
+                "compParam": {}
+            },
+            "defaultValue": "asset/image/animation/shadow/shadow1.png",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "以图片底部中心作为阴影的起始点对齐",
+            "alias": "",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.43511102183473427",
+            "varName": "shadowOffsetX",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {}
+            },
+            "defaultValue": "0",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "阴影偏移X",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.5612373804105646",
+            "varName": "shadowOffsetY",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {}
+            },
+            "defaultValue": "0",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "阴影偏移Y",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.578886921051335",
+            "varName": "shadowOpacity",
+            "varType": 0,
+            "compData": {
+                "compType": 1,
+                "compParam": {
+                    "minLimit": 0,
+                    "maxLimit": 1,
+                    "tickValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": true
+                }
+            },
+            "defaultValue": "0.5",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "不透明度",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.6720145603567762",
+            "varName": "shadowRotation",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {}
+            },
+            "defaultValue": "45",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "旋转度",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.17782832204647714",
+            "varName": "shadowScale",
+            "varType": 0,
+            "compData": {
+                "compType": 1,
+                "compParam": {
+                    "minLimit": 0.01,
+                    "maxLimit": 5,
+                    "tickValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": false
+                }
+            },
+            "defaultValue": "2",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "高度",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.3122684725087628",
+            "varName": "shadowMinScale",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 10,
+                    "stepValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": false,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true
+                }
+            },
+            "defaultValue": "0.5",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "受光照影响后阴影变化缩放度的最小值",
+            "alias": "阴影最小值",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.18781415484110808",
+            "varName": "shadowMaxScale",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 10,
+                    "stepValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": false,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true
+                }
+            },
+            "defaultValue": "5",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "受光照影响后阴影变化缩放度的最大值",
+            "alias": "阴影最大值",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.6290490473277364",
+            "varName": "shadowOpacityFactor",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 10,
+                    "stepValue": 0.1,
+                    "limitInteger": false,
+                    "lockTextLimit": false,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true
+                }
+            },
+            "defaultValue": "3",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "受到光照影响后「不透明度」变化的程度，1表示100%，越大越不透明",
+            "alias": "不透明度因子",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.6514013073751372",
+            "varName": "shadowScaleFactor",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 10,
+                    "stepValue": 0.1,
+                    "limitInteger": false,
+                    "lockTextLimit": false,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true
+                }
+            },
+            "defaultValue": "2",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "受到光照影响后「高度」变化的程度，1表示100%，越大则表示越高",
+            "alias": "高度因子",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.33998469298666634",
+            "varName": "lightStyleType",
+            "varType": 0,
+            "compData": {
+                "compType": 2,
+                "compParam": {
+                    "items": "行走图,图片,动画",
+                    "showIndex": false
+                }
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "\\n行走图：将「行走图」作为灯光显示，支持序列帧（若遇到朝向变化，请勾选-固定朝向）\\n图片：将图片作为灯光显示\\n动画：将动画作为灯光显示，动画内部可以设定灯光的位移、缩放、旋转、混合模式等效果",
+            "alias": "灯光样式",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.3579512436004493",
+            "varName": "lightImage",
+            "varType": 1,
+            "compData": {
+                "compType": 22,
+                "compParam": {}
+            },
+            "defaultValue": "asset/image/animation/light/light2.png",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "灯光图片",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.9030095243363858",
+            "varName": "lightAnimation",
+            "varType": 0,
+            "compData": {
+                "compType": 4,
+                "compParam": {}
+            },
+            "defaultValue": "14001",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "灯光动画",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.28551264647671437",
+            "varName": "lightAnimationScaleX",
+            "varType": 0,
+            "compData": {
+                "compType": 1,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 10,
+                    "stepValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": true,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true,
+                    "minLimit": 0,
+                    "maxLimit": 10,
+                    "tickValue": 0.01
+                }
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "灯光缩放X",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818981_0.42603279476612976",
+            "varName": "lightAnimationScaleY",
+            "varType": 0,
+            "compData": {
+                "compType": 1,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 10,
+                    "stepValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": true,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true,
+                    "minLimit": 0,
+                    "maxLimit": 10,
+                    "tickValue": 0.01
+                }
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "灯光缩放Y",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.043473861715363826",
+            "varName": "lightAnimationRotation",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {}
+            },
+            "defaultValue": "0",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "灯光旋转度",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.48186708866513506",
+            "varName": "lightOpacity",
+            "varType": 0,
+            "compData": {
+                "compType": 1,
+                "compParam": {
+                    "minLimit": 0,
+                    "maxLimit": 1,
+                    "tickValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": true
+                }
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "灯光不透明度",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.7751615895149027",
+            "varName": "lightBlendMode",
+            "varType": 0,
+            "compData": {
+                "compType": 2,
+                "compParam": {
+                    "items": "普通,线性减淡(加法),滤色,叠加,正片叠底,融入",
+                    "showIndex": false
+                }
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "混合模式",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.9996823383265325",
+            "varName": "lightBrighten",
+            "varType": 2,
+            "compData": {
+                "compType": 15,
+                "compParam": {}
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "影响范围内的带有「受灯光影响」的阴影的对象，其阴影的显示效果会被该光照影响。",
+            "alias": "照亮周围",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.012092498370644522",
+            "varName": "lightRange",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {}
+            },
+            "defaultValue": "500",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "在该范围会让「同组」的「受光照影响」的阴影显现。",
+            "alias": "照亮范围",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.4118210773998898",
+            "varName": "showLightRange",
+            "varType": 2,
+            "compData": {
+                "compType": 15,
+                "compParam": {}
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "编辑器预览-显示光照范围",
+            "alias": "显示光照范围",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.34617474066129783",
+            "varName": "lightShineEnable",
+            "varType": 2,
+            "compData": {
+                "compType": 15,
+                "compParam": {}
+            },
+            "defaultValue": "",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "勾选此项后光照会不断闪耀，在范围内让对应的「受光照影响」的阴影小幅度变化",
+            "alias": "闪耀",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.6128933043609732",
+            "varName": "lightShineValue",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 3,
+                    "stepValue": 0.01,
+                    "limitInteger": false,
+                    "lockTextLimit": true,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true
+                }
+            },
+            "defaultValue": "0.25",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "「受光照影响」的阴影的缩放、透明度变化幅度",
+            "alias": "闪耀幅度",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.541721499914926",
+            "varName": "lightShineTransition",
+            "varType": 1,
+            "compData": {
+                "compType": 41,
+                "compParam": {
+                    "loopType": true,
+                    "timeType": 1,
+                    "immediateMode": false
+                }
+            },
+            "defaultValue": "",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "可设置-循环-往返，可以制作出不断来回闪耀的效果。",
+            "alias": "闪耀过渡",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.8364144267245255",
+            "varName": "groupID",
+            "varType": 0,
+            "compData": {
+                "compType": 0,
+                "compParam": {
+                    "lowerLimit": 0,
+                    "upperLimit": 100,
+                    "stepValue": 1,
+                    "limitInteger": true,
+                    "lockTextLimit": true,
+                    "xDragEnabled": true,
+                    "yDragEnabled": true
+                }
+            },
+            "defaultValue": "1",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "阴影和光照的作用只会对同组生效，阴影只会受到一个光照影响，请确保在范围内同一组只有一个光照。",
+            "alias": "分组",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        },
+        {
+            "id": "184977818982_0.5104118427761135",
+            "varName": "tips",
+            "varType": 1,
+            "compData": {
+                "compType": 32,
+                "compParam": {}
+            },
+            "defaultValue": "",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "光照和阴影会增加额外的系统开销，动态阴影会增加更多计算量，请合理使用。",
+            "alias": "\\n★★★[?]",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": true,
+            "enumEnable_set": true
+        }
+    ],
+    "attrConditions": [
+        [],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.13590957226585143",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.992696678508671",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.992696678508671",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.992696678508671",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.992696678508671",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.992696678508671",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.992696678508671",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.33998469298666634",
+                "value": 1,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818981_0.33998469298666634",
+                "value": 2,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818982_0.9996823383265325",
+                "value": true,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818982_0.9996823383265325",
+                "value": true,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818982_0.9996823383265325",
+                "value": true,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818982_0.34617474066129783",
+                "value": true,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818982_0.9996823383265325",
+                "value": true,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": "184977818981_0.9879079694876487",
+                "value": 0,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818982_0.34617474066129783",
+                "value": true,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            },
+            {
+                "attrID": "184977818982_0.9996823383265325",
+                "value": true,
+                "isExpression": false,
+                "jsCode": null,
+                "tsCode": null,
+                "codeName": null
+            }
+        ],
+        [
+            {
+                "attrID": null,
+                "value": null,
+                "isExpression": true,
+                "jsCode": "(attrs.type == 0 && attrs.lightBrighten) || (attrs.type == 1 && attrs.shadowType == 1);\n",
+                "tsCode": "// 动态光源或阴影\r\n(attrs.type == 0 && attrs.lightBrighten) || (attrs.type == 1 && attrs.shadowType == 1)",
+                "codeName": "动态-光影"
+            }
+        ],
+        []
+    ],
+    "presetModules": [],
+    "serverInstanceClassName": null,
+    "clientInstanceClassName": "SoModule_LightShadow",
+    "supportTriggerTypes": [],
+    "supportStatusPage": true,
+    "hidePublicAttributes": [],
+    "editorListPresetData": [],
+    "id": 5,
+    "editorPreviewTS": "//------------------------------------------------------------------------------------------------------\n//  ■ 用于实现场景对象的实时编辑器预览效果\n//    -- 该代码为私有域，可任意增加变量，该变量作用域仅供此处使用\n//    -- 该代码执行在编辑器中，所以一些游戏运行时独有的函数/类可能无法使用\n//    -- 一旦编写了注册相关的逻辑，需要在onRemoved时取消该注册（如setInterval/os.add_ENTERFRAME等）\n//       如果该模块已附加在了实体对象上，那么请在编写取消注册的逻辑后再保存或确定，否则可能造成泄漏\n//       如果发生不可逆的泄漏，已经影响到了显示和操作，只能在编写正确的代码后通过重启编辑器解决。\n//------------------------------------------------------------------------------------------------------\n/**\n * 当前模块\n */\ndeclare var soModule: SceneObjectModule_5;\n/**\n * 当前模块的拥有者\n */\ndeclare var owner: ProjectClientSceneObject;\n/**\n * 打开对象操作工具（一般在选中时打开）\n * @param sp 目标对象\n */\ndeclare var openOperateObjectTool: (sp: Sprite) => void;\n/**\n * 刷新对象操作工具\n */\ndeclare var refreshOperateObjectTool: () => void;\n/**\n * 移移除对象操作工具\n */\ndeclare var disposeOperateObjectTool: () => void;\n/**\n * 刷新对象模块组件属性\n * @param varName 变量名\n * @param value 更改后的值\n */\ndeclare var updateComp: (varName: string, value: any) => void;\n/**\n * 编辑器预览接口\n */\ndeclare var editor: Editor;\n/**\n * 阴影容器：shadowAvatar/shadowImageObject使用该容器装载\n */\nlet shadowRoot: UIRoot;\n/**\n * 阴影对象-行走图\n */\nlet shadowAvatar: Avatar;\n/**\n * 阴影对象-图片对象\n */\nlet shadowImageObject: UIBitmap;\n/**\n * 光照对象-图片对象\n */\nlet lightImageObject: UIBitmap;\n/**\n * 光照对象-动画对象\n */\nlet lightAnimationObject: GCAnimation;\n/**\n * 所在组\n */\nlet inGroupID: number;\n/**\n * 所在组类别 0-光照 1-阴影\n */\nlet inGroupType: number;\n/**\n * 闪耀\n */\nlet lightShineTransData: TransData;\nlet lightShineTransI = 0;\n/**\n * 记录阴影被光照作用的帧，确保同组同一帧只会收到一个光照影响\n */\nlet lightRange2: number;\nlet startUpdate: boolean;\nlet startShadowUpdate: boolean;\n\n/**\n * 域\n */\nlet soModuleDomain: { module: SceneObjectModule_5, setShadowStyle: Function, owner: ProjectClientSceneObject, brightenFrame: number } = {} as any;\n\n/**\n * 当前模块初始化（当添加该模块时）\n */\nfunction init(): void {\n    soModuleDomain.module = soModule;\n    soModuleDomain.setShadowStyle = setShadowStyle;\n    soModuleDomain.owner = owner;\n    startUpdate = false;\n    startShadowUpdate = false;\n    clear();\n    if (soModule.type == 0) {\n        initLight();\n    }\n    else {\n        initShadow();\n    }\n}\n/**\n * 当移除该模块时\n * 一些自己增加的逻辑如需销毁，必须在此函数中实现\n */\nfunction onRemoved(): void {\n    clear();\n    if (shadowAvatar) {\n        owner.shadow.removeChild(shadowAvatar);\n        shadowAvatar.dispose();\n        shadowAvatar = null;\n    }\n    if (lightImageObject) {\n        lightImageObject.dispose();\n        lightImageObject = null;\n    }\n    if (lightAnimationObject) {\n        lightAnimationObject.dispose();\n        lightAnimationObject = null;\n    }\n    if (shadowImageObject) {\n        shadowImageObject.dispose();\n        shadowImageObject = null;\n    }\n    if (shadowRoot) {\n        shadowRoot.dispose();\n        shadowRoot = null;\n    }\n    owner.avatar.blendMode = null;\n    owner.avatar.off(Avatar.RENDER, this, onAvatarRender);\n    owner.avatarContainer.visible = true;\n    owner.avatarContainer.scaleX = 1;\n    owner.avatarContainer.scaleY = 1;\n    owner.avatarContainer.rotation = 0;\n    owner.avatarContainer.alpha = 1;\n    startUpdate = false;\n    startShadowUpdate = false;\n    if (brightenBmp) brightenBmp.removeSelf();\n}\n/**\n * 当改变当前模块属性时\n * @param attrName 模块的属性名称\n */\nfunction onChange(attrName: string): void {\n    // reset\n    if ([`type`, `shadowType`, `shadowStyle`, `shadowImage`, `lightStyleType`, `lightImage`, `lightAnimation`, `lightShineEnable`, `groupID`, `lightShineTransition`].indexOf(attrName) != -1) {\n        init();\n    }\n    else if ([`shadowOffsetX`, `shadowOffsetY`].indexOf(attrName) != -1) {\n        refreshShadowOffset();\n    }\n    else if ([`shadowOpacity`, `shadowRotation`, `shadowScale`].indexOf(attrName) != -1) {\n        if (soModule.shadowType == 0) {\n            setShadowStyle(soModule.shadowOpacity, soModule.shadowScale, soModule.shadowRotation);\n        }\n    }\n    else if ([`lightAnimationScaleX`, `lightAnimationScaleY`, `lightAnimationRotation`, `lightOpacity`].indexOf(attrName) != -1) {\n        refreshLightBase();\n    }\n    else if ([`lightBlendMode`].indexOf(attrName) != -1) {\n        refreshLightStyle();\n    }\n    else if ([`lightRange`, `lightBrighten`, `showLightRange`].indexOf(attrName) != -1) {\n        if (soModule.lightBrighten) lightRange2 = soModule.lightRange * soModule.lightRange;\n        else lightRange2 = 0;\n        lightBrightenUpdate(true);\n        refreshLightBrighten();\n    }\n}\n/**\n * 当前模块每帧执行的函数\n */\nfunction onUpdate(): void {\n    if (startUpdate) {\n        lightBrightenUpdate();\n    }\n    else if (startShadowUpdate) {\n        onDynamicShadowUpdate();\n    }\n}\n/**\n * 当选中拥有者时的函数\n * @param isSingleSelect 是否单选\n */\nfunction onSelectedOwner(isSingleSelect: boolean): void {\n    refreshLightBrighten();\n}\n/**\n * 当取消选中拥有者时的函数\n */\nfunction onCancelSelectedOwner(): void {\n    if (brightenBmp) brightenBmp.removeSelf();\n}\n/**\n * 当拥有者的一般属性变更时（包含公共模块的属性变更）\n * @param attrName 拥有者的属性名称\n */\nfunction onOwnerAttributeChange(attrName: string): void {\n\n}\n/**\n * 当拥有者的模块顺序发生改变时\n * @param fromIndex 模块原位置\n * @param toIndex 模块新位置\n */\nfunction onChangeModulePostion(fromIndex: number, toIndex: number): void {\n\n}\n/**\n * 当对象操作工具开始操作时\n */\nfunction onOperateObjectToolStart() {\n\n}\n/**\n * 当对象操作工具更改宽高时\n */\nfunction onOperateObjectToolChangeWH() {\n    let radius = Math.floor(Math.min(brightenBmp.width / 2, brightenBmp.height / 2));\n    updateComp(\"lightRange\", radius)\n    // refreshLightBrighten();\n}\n/**\n * 当对象操作工具操作结束时\n */\nfunction onOperateObjectToolEnd() {\n\n}\n//------------------------------------------------------------------------------------------------------\n//  \n//------------------------------------------------------------------------------------------------------\nfunction clear() {\n    removeFromGroup();\n    if (shadowRoot) shadowRoot.removeSelf();\n    if (shadowAvatar) shadowAvatar.removeSelf();\n    if (shadowImageObject) shadowImageObject.removeSelf();\n    if (lightAnimationObject) lightAnimationObject.removeSelf();\n    if (lightImageObject) lightImageObject.removeSelf();\n    owner.avatarContainer.visible = true;\n    owner.avatarContainer.scaleX = 1;\n    owner.avatarContainer.scaleY = 1;\n    owner.avatarContainer.rotation = 0;\n    owner.avatarContainer.alpha = 1;\n}\n//------------------------------------------------------------------------------------------------------\n//  光照\n//------------------------------------------------------------------------------------------------------\n/**\n * 光照初始化\n */\nfunction initLight() {\n    addToLightGroup();\n    // clear\n    createLight();\n    refreshLightStyle();\n    startLightBrighten()\n}\n/**\n * 刷新光照样式\n */\nfunction refreshLightStyle() {\n    let blendTarget: Avatar | UIBitmap | GCAnimation;\n    switch (soModule.lightStyleType) {\n        case 0:\n            blendTarget = owner.avatar;\n            break;\n        case 1:\n            blendTarget = lightImageObject;\n            break;\n        case 2:\n            blendTarget = lightAnimationObject;\n            break;\n    }\n    if (!blendTarget) return;\n    switch (soModule.lightBlendMode) {\n        case 0:\n            blendTarget.blendMode = null;\n            break;\n        case 1:\n            blendTarget.blendMode = \"lighter\";\n            break;\n        case 2:\n            blendTarget.blendMode = \"blend5-1\";\n            break;\n        case 3:\n            blendTarget.blendMode = \"blend4-1\";\n            break;\n        case 4:\n            blendTarget.blendMode = \"blend4-7\";\n            break;\n        case 5:\n            blendTarget.blendMode = \"blend4-4\";\n            break;\n    }\n}\n/**\n * 光照作用开始\n */\nfunction startLightBrighten() {\n    if (!soModule.lightBrighten) return;\n    lightRange2 = soModule.lightRange * soModule.lightRange;\n    if (soModule.lightShineEnable) {\n        lightShineTransData = GameUtils.getTransData(soModule.lightShineTransition);\n    }\n    startUpdate = true;\n}\n/**\n * 光照作用-帧刷\n * @param lightRange2 \n */\nfunction lightBrightenUpdate(force: boolean = false) {\n    Callback.CallLaterBeforeRender(() => {\n        if (!startUpdate) return;\n        let shineValue: number;\n        if (soModule.lightShineEnable) {\n            if (!lightShineTransData) return;\n            let per = (lightShineTransI % lightShineTransData.totalTime) / lightShineTransData.totalTime;\n            shineValue = GameUtils.getValueByTransData(lightShineTransData, per) * soModule.lightShineValue + 1;\n            lightShineTransI++;\n        }\n        else {\n            shineValue = 1;\n        }\n        // -- 获取同组的阴影\n        let shadowArr = EDITOR_COMMON().shadowArr;\n        if (!shadowArr) return;\n        let shadowGroup = shadowArr[soModule.groupID];\n        if (shadowGroup) {\n            for (let i = 0; i < shadowGroup.length; i++) {\n                let soModuleShadowDomain: { module: SceneObjectModule_5, setShadowStyle: Function, owner: ProjectClientSceneObject, brightenFrame: number } = shadowGroup[i];\n                let soModuleShadow = soModuleShadowDomain.module;\n                if (soModuleShadow.shadowType == 1 && (force || soModuleShadowDomain.brightenFrame != __fCount)) {\n                    if (soModule.lightBrighten) {\n                        let dis2 = Point.distanceSquare2(owner.x, owner.y, soModuleShadow.so.x, soModuleShadow.so.y);\n                        if (dis2 <= lightRange2) {\n                            if (!force) soModuleShadowDomain.brightenFrame = __fCount;\n                            let lightStrength = 1 - dis2 / lightRange2; // 0~1\n                            let shadowRotation = MathUtils.direction360(owner.x, owner.y, soModuleShadow.so.x, soModuleShadow.so.y);\n                            let shadowAlpha = soModuleShadow.shadowOpacity * lightStrength * soModuleShadow.shadowOpacityFactor * shineValue;\n                            let shadowScaleChangeValue = soModuleShadow.shadowMaxScale - soModuleShadow.shadowMinScale;\n                            let shadowScaleY = (shadowScaleChangeValue * (1 - lightStrength) * soModuleShadow.shadowScaleFactor) * shineValue + soModuleShadow.shadowMinScale;\n                            soModuleShadowDomain.setShadowStyle(shadowAlpha, shadowScaleY, shadowRotation);\n                        }\n                    }\n                    else if (force) {\n                        soModuleShadowDomain.setShadowStyle(0, 0, 0);\n                    }\n                }\n            }\n        }\n    }, this);\n}\n/**\n * 创建灯光\n */\nfunction createLight() {\n    // -- 图片灯光\n    if (soModule.lightStyleType == 1) {\n        // clear\n        owner.avatarContainer.visible = false;\n        owner.avatar.blendMode = null;\n        if (lightAnimationObject) lightAnimationObject.stop();\n        // create\n        if (!lightImageObject) lightImageObject = new UIBitmap;\n        // set\n        if (lightImageObject.image != soModule.lightImage) {\n            lightImageObject.off(EventObject.LOADED, this, onLightImageLoaded);\n            lightImageObject.once(EventObject.LOADED, this, onLightImageLoaded);\n            lightImageObject.image = soModule.lightImage;\n        }\n        owner.animationHighLayer.addChild(lightImageObject);\n        lightImageObject.scaleX = soModule.lightAnimationScaleX;\n        lightImageObject.scaleY = soModule.lightAnimationScaleY;\n        lightImageObject.rotation = soModule.lightAnimationRotation;\n        lightImageObject.alpha = soModule.lightOpacity;\n        onLightImageLoaded();\n    }\n    // -- 动画灯光\n    else if (soModule.lightStyleType == 2) {\n        // clear\n        owner.avatarContainer.visible = false;\n        owner.avatar.blendMode = null;\n        // create\n        if (!lightAnimationObject) {\n            lightAnimationObject = new GCAnimation;\n            lightAnimationObject.loop = true;\n        }\n        // set\n        if (!lightAnimationObject.isPlaying) lightAnimationObject.play();\n        if (lightAnimationObject.id != soModule.lightAnimation) lightAnimationObject.id = soModule.lightAnimation;\n        owner.animationHighLayer.addChild(lightAnimationObject);\n        lightAnimationObject.scaleX = soModule.lightAnimationScaleX;\n        lightAnimationObject.scaleY = soModule.lightAnimationScaleY;\n        lightAnimationObject.rotation = soModule.lightAnimationRotation;\n        lightAnimationObject.alpha = soModule.lightOpacity;\n    }\n    // -- 行走图灯光\n    else {\n        owner.avatarContainer.visible = true;\n        if (lightAnimationObject) lightAnimationObject.stop();\n        owner.avatarContainer.scaleX = soModule.lightAnimationScaleX;\n        owner.avatarContainer.scaleY = soModule.lightAnimationScaleY;\n        owner.avatarContainer.rotation = soModule.lightAnimationRotation;\n        owner.avatarContainer.alpha = soModule.lightOpacity;\n    }\n    // \n}\nfunction onLightImageLoaded() {\n    let imageTex = AssetManager.getImage(soModule.lightImage);\n    if (imageTex && lightImageObject) {\n        lightImageObject.width = imageTex.width;\n        lightImageObject.height = imageTex.height;\n        lightImageObject.pivotType = 1;\n    }\n}\n\nlet brightenBmp: UIBitmap;\nfunction refreshLightBrighten() {\n    if (brightenBmp) brightenBmp.removeSelf();\n    if (soModule.type == 0 && soModule.lightBrighten && soModule.showLightRange) {\n        if (!brightenBmp) brightenBmp = new UIBitmap;\n        brightenBmp.mouseEnabled = false;\n        brightenBmp.alpha = 0.1;\n        brightenBmp.width = soModule.lightRange;\n        brightenBmp.height = soModule.lightRange;\n        brightenBmp.graphics.clear();\n        brightenBmp.graphics.drawCircle(0, 0, soModule.lightRange, \"#FF00FF\");\n        owner.animationHighLayer.addChild(brightenBmp)\n    }\n}\n//------------------------------------------------------------------------------------------------------\n//  阴影\n//------------------------------------------------------------------------------------------------------\n/**\n * 初始化阴影\n */\nfunction initShadow() {\n    addToShadowGroup();\n    createShadow();\n}\n/**\n * 创建阴影样式\n */\nfunction createShadow() {\n    if (!shadowRoot) {\n        shadowRoot = new UIRoot;\n    }\n    owner.shadow.addChild(shadowRoot);\n    if (soModule.shadowStyle == 0) {\n        if (!shadowAvatar) {\n            shadowAvatar = new Avatar;\n            shadowAvatar.setTonal(0, 0, 0, 0, 0, 0, 0);\n        }\n        if (shadowAvatar.id != owner.avatarID) shadowAvatar.id = owner.avatarID;\n        shadowAvatar.x = soModule.shadowOffsetX;\n        shadowAvatar.y = soModule.shadowOffsetY;\n        shadowRoot.addChild(shadowAvatar);\n        owner.avatar.off(Avatar.RENDER, this, onAvatarRender);\n        owner.avatar.on(Avatar.RENDER, this, onAvatarRender);\n        onAvatarRender();\n    }\n    else if (soModule.shadowStyle == 1) {\n        if (!shadowImageObject) {\n            shadowImageObject = new UIBitmap;\n        }\n        if (shadowImageObject.image != soModule.shadowImage) {\n            shadowImageObject.off(EventObject.LOADED, this, onShadowImageLoaded);\n            shadowImageObject.once(EventObject.LOADED, this, onShadowImageLoaded);\n            shadowImageObject.image = soModule.shadowImage;\n        }\n        onShadowImageLoaded();\n        shadowRoot.addChild(shadowImageObject);\n    }\n    if (soModule.shadowType == 0) {\n        setShadowStyle(soModule.shadowOpacity, soModule.shadowScale, soModule.shadowRotation);\n    } else {\n        setShadowStyle(0, 0, 0);\n        startShadowUpdate = true;\n    }\n}\n/**\n * 每帧先重置阴影状态\n */\nfunction onDynamicShadowUpdate() {\n    setShadowStyle(0, 0, 0);\n}\n\n\n/**\n * 当阴影图片加载完毕时：初始化位置\n */\nfunction onShadowImageLoaded() {\n    let imageTex = AssetManager.getImage(soModule.shadowImage);\n    if (imageTex) {\n        if (shadowImageObject) {\n            shadowImageObject.width = imageTex.width;\n            shadowImageObject.height = imageTex.height;\n            shadowImageObject.x = Math.floor(soModule.shadowOffsetX - imageTex.width * 0.5);\n            shadowImageObject.y = soModule.shadowOffsetY - imageTex.height;\n        }\n    }\n}\n/**\n * 当行走图渲染时-阴影同步\n */\nfunction onAvatarRender() {\n    if (!shadowAvatar) return;\n    if (shadowAvatar.id != owner.avatar.id) shadowAvatar.id = owner.avatar.id;\n    shadowAvatar.actionID = owner.avatar.actionID;\n    shadowAvatar.currentFrame = owner.avatar.currentFrame;\n    shadowAvatar.orientation = owner.avatar.orientation;\n}\n/**\n * 刷新阴影样式-动态\n */\nfunction setShadowStyle(alpha: number, scaleY: number, rotation: number) {\n    shadowRoot.alpha = alpha;\n    shadowRoot.scaleY = scaleY;\n    shadowRoot.rotation = rotation;\n    shadowRoot.scaleX = rotation >= 90 && rotation <= 270 ? -1 : 1;\n}\n//------------------------------------------------------------------------------------------------------\n// 通用 \n//------------------------------------------------------------------------------------------------------\nfunction EDITOR_COMMON(): any {\n    return owner.scene;\n}\n/**\n * 添加到阴影组\n */\nfunction addToShadowGroup() {\n    if (!EDITOR_COMMON().shadowArr) EDITOR_COMMON().shadowArr = [];\n    let shadowGroup = EDITOR_COMMON().shadowArr[soModule.groupID];\n    if (!shadowGroup) shadowGroup = EDITOR_COMMON().shadowArr[soModule.groupID] = [];\n    let shadowIdx = shadowGroup.indexOf(soModuleDomain);\n    if (shadowIdx == -1) shadowGroup.push(soModuleDomain);\n    inGroupID = soModule.groupID;\n    inGroupType = soModule.type;\n}\n/**\n * 添加到灯光组\n */\nfunction addToLightGroup() {\n    if (!EDITOR_COMMON().lightArr) EDITOR_COMMON().lightArr = [];\n    let lightGroup = EDITOR_COMMON().lightArr[soModule.groupID];\n    if (!lightGroup) lightGroup = EDITOR_COMMON().lightArr[soModule.groupID] = [];\n    let lightIdx = lightGroup.indexOf(soModuleDomain);\n    if (lightIdx == -1) lightGroup.push(soModuleDomain);\n    inGroupID = soModule.groupID;\n    inGroupType = soModule.type;\n}\n/**\n * 从阴影/灯光组里移除\n */\nfunction removeFromGroup() {\n    if (inGroupID != null) {\n        let groupArr = inGroupType == 0 ? EDITOR_COMMON().lightArr[inGroupType] : EDITOR_COMMON().shadowArr[inGroupType];\n        if (groupArr) {\n            let idx = groupArr.indexOf(soModuleDomain);\n            if (idx != -1) groupArr.splice(idx, 1);\n        }\n    }\n}\n//------------------------------------------------------------------------------------------------------\n//  editor\n//------------------------------------------------------------------------------------------------------\nfunction refreshShadowOffset() {\n    if (soModule.shadowStyle == 0) {\n        if (shadowAvatar) {\n            shadowAvatar.x = soModule.shadowOffsetX;\n            shadowAvatar.y = soModule.shadowOffsetY;\n        }\n    }\n    else if (soModule.shadowStyle == 1) {\n        onShadowImageLoaded()\n    }\n}\nfunction refreshLightBase() {\n    if (soModule.lightStyleType == 1) {\n        if (lightImageObject) {\n            lightImageObject.scaleX = soModule.lightAnimationScaleX;\n            lightImageObject.scaleY = soModule.lightAnimationScaleY;\n            lightImageObject.rotation = soModule.lightAnimationRotation;\n            lightImageObject.alpha = soModule.lightOpacity;\n        }\n    }\n    else if (soModule.lightStyleType == 2) {\n        if (lightAnimationObject) {\n            lightAnimationObject.scaleX = soModule.lightAnimationScaleX;\n            lightAnimationObject.scaleY = soModule.lightAnimationScaleY;\n            lightAnimationObject.rotation = soModule.lightAnimationRotation;\n            lightAnimationObject.alpha = soModule.lightOpacity;\n        }\n    }\n    else {\n        owner.avatarContainer.scaleX = soModule.lightAnimationScaleX;\n        owner.avatarContainer.scaleY = soModule.lightAnimationScaleY;\n        owner.avatarContainer.rotation = soModule.lightAnimationRotation;\n        owner.avatarContainer.alpha = soModule.lightOpacity;\n    }\n}",
+    "editorPreviewJS": "var shadowRoot;\nvar shadowAvatar;\nvar shadowImageObject;\nvar lightImageObject;\nvar lightAnimationObject;\nvar inGroupID;\nvar inGroupType;\nvar lightShineTransData;\nvar lightShineTransI = 0;\nvar lightRange2;\nvar startUpdate;\nvar startShadowUpdate;\nvar soModuleDomain = {};\nfunction init() {\n    soModuleDomain.module = soModule;\n    soModuleDomain.setShadowStyle = setShadowStyle;\n    soModuleDomain.owner = owner;\n    startUpdate = false;\n    startShadowUpdate = false;\n    clear();\n    if (soModule.type == 0) {\n        initLight();\n    }\n    else {\n        initShadow();\n    }\n}\nfunction onRemoved() {\n    clear();\n    if (shadowAvatar) {\n        owner.shadow.removeChild(shadowAvatar);\n        shadowAvatar.dispose();\n        shadowAvatar = null;\n    }\n    if (lightImageObject) {\n        lightImageObject.dispose();\n        lightImageObject = null;\n    }\n    if (lightAnimationObject) {\n        lightAnimationObject.dispose();\n        lightAnimationObject = null;\n    }\n    if (shadowImageObject) {\n        shadowImageObject.dispose();\n        shadowImageObject = null;\n    }\n    if (shadowRoot) {\n        shadowRoot.dispose();\n        shadowRoot = null;\n    }\n    owner.avatar.blendMode = null;\n    owner.avatar.off(Avatar.RENDER, this, onAvatarRender);\n    owner.avatarContainer.visible = true;\n    owner.avatarContainer.scaleX = 1;\n    owner.avatarContainer.scaleY = 1;\n    owner.avatarContainer.rotation = 0;\n    owner.avatarContainer.alpha = 1;\n    startUpdate = false;\n    startShadowUpdate = false;\n    if (brightenBmp)\n        brightenBmp.removeSelf();\n}\nfunction onChange(attrName) {\n    if ([\"type\", \"shadowType\", \"shadowStyle\", \"shadowImage\", \"lightStyleType\", \"lightImage\", \"lightAnimation\", \"lightShineEnable\", \"groupID\", \"lightShineTransition\"].indexOf(attrName) != -1) {\n        init();\n    }\n    else if ([\"shadowOffsetX\", \"shadowOffsetY\"].indexOf(attrName) != -1) {\n        refreshShadowOffset();\n    }\n    else if ([\"shadowOpacity\", \"shadowRotation\", \"shadowScale\"].indexOf(attrName) != -1) {\n        if (soModule.shadowType == 0) {\n            setShadowStyle(soModule.shadowOpacity, soModule.shadowScale, soModule.shadowRotation);\n        }\n    }\n    else if ([\"lightAnimationScaleX\", \"lightAnimationScaleY\", \"lightAnimationRotation\", \"lightOpacity\"].indexOf(attrName) != -1) {\n        refreshLightBase();\n    }\n    else if ([\"lightBlendMode\"].indexOf(attrName) != -1) {\n        refreshLightStyle();\n    }\n    else if ([\"lightRange\", \"lightBrighten\", \"showLightRange\"].indexOf(attrName) != -1) {\n        if (soModule.lightBrighten)\n            lightRange2 = soModule.lightRange * soModule.lightRange;\n        else\n            lightRange2 = 0;\n        lightBrightenUpdate(true);\n        refreshLightBrighten();\n    }\n}\nfunction onUpdate() {\n    if (startUpdate) {\n        lightBrightenUpdate();\n    }\n    else if (startShadowUpdate) {\n        onDynamicShadowUpdate();\n    }\n}\nfunction onSelectedOwner(isSingleSelect) {\n    refreshLightBrighten();\n}\nfunction onCancelSelectedOwner() {\n    if (brightenBmp)\n        brightenBmp.removeSelf();\n}\nfunction onOwnerAttributeChange(attrName) {\n}\nfunction onChangeModulePostion(fromIndex, toIndex) {\n}\nfunction onOperateObjectToolStart() {\n}\nfunction onOperateObjectToolChangeWH() {\n    var radius = Math.floor(Math.min(brightenBmp.width / 2, brightenBmp.height / 2));\n    updateComp(\"lightRange\", radius);\n}\nfunction onOperateObjectToolEnd() {\n}\nfunction clear() {\n    removeFromGroup();\n    if (shadowRoot)\n        shadowRoot.removeSelf();\n    if (shadowAvatar)\n        shadowAvatar.removeSelf();\n    if (shadowImageObject)\n        shadowImageObject.removeSelf();\n    if (lightAnimationObject)\n        lightAnimationObject.removeSelf();\n    if (lightImageObject)\n        lightImageObject.removeSelf();\n    owner.avatarContainer.visible = true;\n    owner.avatarContainer.scaleX = 1;\n    owner.avatarContainer.scaleY = 1;\n    owner.avatarContainer.rotation = 0;\n    owner.avatarContainer.alpha = 1;\n}\nfunction initLight() {\n    addToLightGroup();\n    createLight();\n    refreshLightStyle();\n    startLightBrighten();\n}\nfunction refreshLightStyle() {\n    var blendTarget;\n    switch (soModule.lightStyleType) {\n        case 0:\n            blendTarget = owner.avatar;\n            break;\n        case 1:\n            blendTarget = lightImageObject;\n            break;\n        case 2:\n            blendTarget = lightAnimationObject;\n            break;\n    }\n    if (!blendTarget)\n        return;\n    switch (soModule.lightBlendMode) {\n        case 0:\n            blendTarget.blendMode = null;\n            break;\n        case 1:\n            blendTarget.blendMode = \"lighter\";\n            break;\n        case 2:\n            blendTarget.blendMode = \"blend5-1\";\n            break;\n        case 3:\n            blendTarget.blendMode = \"blend4-1\";\n            break;\n        case 4:\n            blendTarget.blendMode = \"blend4-7\";\n            break;\n        case 5:\n            blendTarget.blendMode = \"blend4-4\";\n            break;\n    }\n}\nfunction startLightBrighten() {\n    if (!soModule.lightBrighten)\n        return;\n    lightRange2 = soModule.lightRange * soModule.lightRange;\n    if (soModule.lightShineEnable) {\n        lightShineTransData = GameUtils.getTransData(soModule.lightShineTransition);\n    }\n    startUpdate = true;\n}\nfunction lightBrightenUpdate(force) {\n    if (force === void 0) { force = false; }\n    Callback.CallLaterBeforeRender(function () {\n        if (!startUpdate)\n            return;\n        var shineValue;\n        if (soModule.lightShineEnable) {\n            if (!lightShineTransData)\n                return;\n            var per = (lightShineTransI % lightShineTransData.totalTime) / lightShineTransData.totalTime;\n            shineValue = GameUtils.getValueByTransData(lightShineTransData, per) * soModule.lightShineValue + 1;\n            lightShineTransI++;\n        }\n        else {\n            shineValue = 1;\n        }\n        var shadowArr = EDITOR_COMMON().shadowArr;\n        if (!shadowArr)\n            return;\n        var shadowGroup = shadowArr[soModule.groupID];\n        if (shadowGroup) {\n            for (var i = 0; i < shadowGroup.length; i++) {\n                var soModuleShadowDomain = shadowGroup[i];\n                var soModuleShadow = soModuleShadowDomain.module;\n                if (soModuleShadow.shadowType == 1 && (force || soModuleShadowDomain.brightenFrame != __fCount)) {\n                    if (soModule.lightBrighten) {\n                        var dis2 = Point.distanceSquare2(owner.x, owner.y, soModuleShadow.so.x, soModuleShadow.so.y);\n                        if (dis2 <= lightRange2) {\n                            if (!force)\n                                soModuleShadowDomain.brightenFrame = __fCount;\n                            var lightStrength = 1 - dis2 / lightRange2;\n                            var shadowRotation = MathUtils.direction360(owner.x, owner.y, soModuleShadow.so.x, soModuleShadow.so.y);\n                            var shadowAlpha = soModuleShadow.shadowOpacity * lightStrength * soModuleShadow.shadowOpacityFactor * shineValue;\n                            var shadowScaleChangeValue = soModuleShadow.shadowMaxScale - soModuleShadow.shadowMinScale;\n                            var shadowScaleY = (shadowScaleChangeValue * (1 - lightStrength) * soModuleShadow.shadowScaleFactor) * shineValue + soModuleShadow.shadowMinScale;\n                            soModuleShadowDomain.setShadowStyle(shadowAlpha, shadowScaleY, shadowRotation);\n                        }\n                    }\n                    else if (force) {\n                        soModuleShadowDomain.setShadowStyle(0, 0, 0);\n                    }\n                }\n            }\n        }\n    }, this);\n}\nfunction createLight() {\n    if (soModule.lightStyleType == 1) {\n        owner.avatarContainer.visible = false;\n        owner.avatar.blendMode = null;\n        if (lightAnimationObject)\n            lightAnimationObject.stop();\n        if (!lightImageObject)\n            lightImageObject = new UIBitmap;\n        if (lightImageObject.image != soModule.lightImage) {\n            lightImageObject.off(EventObject.LOADED, this, onLightImageLoaded);\n            lightImageObject.once(EventObject.LOADED, this, onLightImageLoaded);\n            lightImageObject.image = soModule.lightImage;\n        }\n        owner.animationHighLayer.addChild(lightImageObject);\n        lightImageObject.scaleX = soModule.lightAnimationScaleX;\n        lightImageObject.scaleY = soModule.lightAnimationScaleY;\n        lightImageObject.rotation = soModule.lightAnimationRotation;\n        lightImageObject.alpha = soModule.lightOpacity;\n        onLightImageLoaded();\n    }\n    else if (soModule.lightStyleType == 2) {\n        owner.avatarContainer.visible = false;\n        owner.avatar.blendMode = null;\n        if (!lightAnimationObject) {\n            lightAnimationObject = new GCAnimation;\n            lightAnimationObject.loop = true;\n        }\n        if (!lightAnimationObject.isPlaying)\n            lightAnimationObject.play();\n        if (lightAnimationObject.id != soModule.lightAnimation)\n            lightAnimationObject.id = soModule.lightAnimation;\n        owner.animationHighLayer.addChild(lightAnimationObject);\n        lightAnimationObject.scaleX = soModule.lightAnimationScaleX;\n        lightAnimationObject.scaleY = soModule.lightAnimationScaleY;\n        lightAnimationObject.rotation = soModule.lightAnimationRotation;\n        lightAnimationObject.alpha = soModule.lightOpacity;\n    }\n    else {\n        owner.avatarContainer.visible = true;\n        if (lightAnimationObject)\n            lightAnimationObject.stop();\n        owner.avatarContainer.scaleX = soModule.lightAnimationScaleX;\n        owner.avatarContainer.scaleY = soModule.lightAnimationScaleY;\n        owner.avatarContainer.rotation = soModule.lightAnimationRotation;\n        owner.avatarContainer.alpha = soModule.lightOpacity;\n    }\n}\nfunction onLightImageLoaded() {\n    var imageTex = AssetManager.getImage(soModule.lightImage);\n    if (imageTex && lightImageObject) {\n        lightImageObject.width = imageTex.width;\n        lightImageObject.height = imageTex.height;\n        lightImageObject.pivotType = 1;\n    }\n}\nvar brightenBmp;\nfunction refreshLightBrighten() {\n    if (brightenBmp)\n        brightenBmp.removeSelf();\n    if (soModule.type == 0 && soModule.lightBrighten && soModule.showLightRange) {\n        if (!brightenBmp)\n            brightenBmp = new UIBitmap;\n        brightenBmp.mouseEnabled = false;\n        brightenBmp.alpha = 0.1;\n        brightenBmp.width = soModule.lightRange;\n        brightenBmp.height = soModule.lightRange;\n        brightenBmp.graphics.clear();\n        brightenBmp.graphics.drawCircle(0, 0, soModule.lightRange, \"#FF00FF\");\n        owner.animationHighLayer.addChild(brightenBmp);\n    }\n}\nfunction initShadow() {\n    addToShadowGroup();\n    createShadow();\n}\nfunction createShadow() {\n    if (!shadowRoot) {\n        shadowRoot = new UIRoot;\n    }\n    owner.shadow.addChild(shadowRoot);\n    if (soModule.shadowStyle == 0) {\n        if (!shadowAvatar) {\n            shadowAvatar = new Avatar;\n            shadowAvatar.setTonal(0, 0, 0, 0, 0, 0, 0);\n        }\n        if (shadowAvatar.id != owner.avatarID)\n            shadowAvatar.id = owner.avatarID;\n        shadowAvatar.x = soModule.shadowOffsetX;\n        shadowAvatar.y = soModule.shadowOffsetY;\n        shadowRoot.addChild(shadowAvatar);\n        owner.avatar.off(Avatar.RENDER, this, onAvatarRender);\n        owner.avatar.on(Avatar.RENDER, this, onAvatarRender);\n        onAvatarRender();\n    }\n    else if (soModule.shadowStyle == 1) {\n        if (!shadowImageObject) {\n            shadowImageObject = new UIBitmap;\n        }\n        if (shadowImageObject.image != soModule.shadowImage) {\n            shadowImageObject.off(EventObject.LOADED, this, onShadowImageLoaded);\n            shadowImageObject.once(EventObject.LOADED, this, onShadowImageLoaded);\n            shadowImageObject.image = soModule.shadowImage;\n        }\n        onShadowImageLoaded();\n        shadowRoot.addChild(shadowImageObject);\n    }\n    if (soModule.shadowType == 0) {\n        setShadowStyle(soModule.shadowOpacity, soModule.shadowScale, soModule.shadowRotation);\n    }\n    else {\n        setShadowStyle(0, 0, 0);\n        startShadowUpdate = true;\n    }\n}\nfunction onDynamicShadowUpdate() {\n    setShadowStyle(0, 0, 0);\n}\nfunction onShadowImageLoaded() {\n    var imageTex = AssetManager.getImage(soModule.shadowImage);\n    if (imageTex) {\n        if (shadowImageObject) {\n            shadowImageObject.width = imageTex.width;\n            shadowImageObject.height = imageTex.height;\n            shadowImageObject.x = Math.floor(soModule.shadowOffsetX - imageTex.width * 0.5);\n            shadowImageObject.y = soModule.shadowOffsetY - imageTex.height;\n        }\n    }\n}\nfunction onAvatarRender() {\n    if (!shadowAvatar)\n        return;\n    if (shadowAvatar.id != owner.avatar.id)\n        shadowAvatar.id = owner.avatar.id;\n    shadowAvatar.actionID = owner.avatar.actionID;\n    shadowAvatar.currentFrame = owner.avatar.currentFrame;\n    shadowAvatar.orientation = owner.avatar.orientation;\n}\nfunction setShadowStyle(alpha, scaleY, rotation) {\n    shadowRoot.alpha = alpha;\n    shadowRoot.scaleY = scaleY;\n    shadowRoot.rotation = rotation;\n    shadowRoot.scaleX = rotation >= 90 && rotation <= 270 ? -1 : 1;\n}\nfunction EDITOR_COMMON() {\n    return owner.scene;\n}\nfunction addToShadowGroup() {\n    if (!EDITOR_COMMON().shadowArr)\n        EDITOR_COMMON().shadowArr = [];\n    var shadowGroup = EDITOR_COMMON().shadowArr[soModule.groupID];\n    if (!shadowGroup)\n        shadowGroup = EDITOR_COMMON().shadowArr[soModule.groupID] = [];\n    var shadowIdx = shadowGroup.indexOf(soModuleDomain);\n    if (shadowIdx == -1)\n        shadowGroup.push(soModuleDomain);\n    inGroupID = soModule.groupID;\n    inGroupType = soModule.type;\n}\nfunction addToLightGroup() {\n    if (!EDITOR_COMMON().lightArr)\n        EDITOR_COMMON().lightArr = [];\n    var lightGroup = EDITOR_COMMON().lightArr[soModule.groupID];\n    if (!lightGroup)\n        lightGroup = EDITOR_COMMON().lightArr[soModule.groupID] = [];\n    var lightIdx = lightGroup.indexOf(soModuleDomain);\n    if (lightIdx == -1)\n        lightGroup.push(soModuleDomain);\n    inGroupID = soModule.groupID;\n    inGroupType = soModule.type;\n}\nfunction removeFromGroup() {\n    if (inGroupID != null) {\n        var groupArr = inGroupType == 0 ? EDITOR_COMMON().lightArr[inGroupType] : EDITOR_COMMON().shadowArr[inGroupType];\n        if (groupArr) {\n            var idx = groupArr.indexOf(soModuleDomain);\n            if (idx != -1)\n                groupArr.splice(idx, 1);\n        }\n    }\n}\nfunction refreshShadowOffset() {\n    if (soModule.shadowStyle == 0) {\n        if (shadowAvatar) {\n            shadowAvatar.x = soModule.shadowOffsetX;\n            shadowAvatar.y = soModule.shadowOffsetY;\n        }\n    }\n    else if (soModule.shadowStyle == 1) {\n        onShadowImageLoaded();\n    }\n}\nfunction refreshLightBase() {\n    if (soModule.lightStyleType == 1) {\n        if (lightImageObject) {\n            lightImageObject.scaleX = soModule.lightAnimationScaleX;\n            lightImageObject.scaleY = soModule.lightAnimationScaleY;\n            lightImageObject.rotation = soModule.lightAnimationRotation;\n            lightImageObject.alpha = soModule.lightOpacity;\n        }\n    }\n    else if (soModule.lightStyleType == 2) {\n        if (lightAnimationObject) {\n            lightAnimationObject.scaleX = soModule.lightAnimationScaleX;\n            lightAnimationObject.scaleY = soModule.lightAnimationScaleY;\n            lightAnimationObject.rotation = soModule.lightAnimationRotation;\n            lightAnimationObject.alpha = soModule.lightOpacity;\n        }\n    }\n    else {\n        owner.avatarContainer.scaleX = soModule.lightAnimationScaleX;\n        owner.avatarContainer.scaleY = soModule.lightAnimationScaleY;\n        owner.avatarContainer.rotation = soModule.lightAnimationRotation;\n        owner.avatarContainer.alpha = soModule.lightOpacity;\n    }\n}\n"
+}

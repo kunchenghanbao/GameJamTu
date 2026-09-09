@@ -1,0 +1,39 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "156223177119_0.36129939645069453",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "图片",
+                "x": 229,
+                "y": 57,
+                "width": 1100,
+                "height": 420,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/battleBackground/Market.png",
+                "grid9": "0,0,0,0,0",
+                "flip": false,
+                "isTile": false,
+                "pivotType": 0
+            }
+        ]
+    },
+    "instanceClassName": "",
+    "id": 37,
+    "hasRootCommand": []
+}

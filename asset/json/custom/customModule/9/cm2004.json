@@ -1,0 +1,140 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/icon/equipment/Breastplate_4.png",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "提供躯干防护的装备。装备后：最大生命+200、物防+40、魔防+40。",
+            "copy": false
+        },
+        "sell": {
+            "varType": 0,
+            "value": 600,
+            "copy": false
+        },
+        "partID": {
+            "varType": 0,
+            "value": 3,
+            "copy": false
+        },
+        "sellEnabled": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "type": {
+            "varType": 0,
+            "value": 6,
+            "copy": false
+        },
+        "wearEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "takeOffEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "maxHP": {
+            "varType": 0,
+            "value": 200,
+            "copy": false
+        },
+        "maxSP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "atk": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "def": {
+            "varType": 0,
+            "value": 40,
+            "copy": false
+        },
+        "mag": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "magDef": {
+            "varType": 0,
+            "value": 40,
+            "copy": false
+        },
+        "hit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "agi": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "crit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "magCrit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "selfStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "selfImmuneStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetSelfAddStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "infoLegend": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "quality": {
+            "varType": 0,
+            "value": 5,
+            "copy": false
+        },
+        "passiveStatus": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "eventSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "moveGrid": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        }
+    },
+    "id": 2004
+}

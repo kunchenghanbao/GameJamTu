@@ -1,0 +1,31 @@
+{
+  "name": "@gamecretaor/template_srpg",
+  "version": "1.09",
+  "private": true,
+  "description": "GameCreator - SRPG - 光之阵 - Formation of Light（角色扮演-战棋 RPG-Strategy）",
+  "main": "Game.html",
+  "scripts": {
+    "build": "node tools/build_project.js",
+    "build:mobile": "node tools/build_project.js",
+    "build:release": "node tools/build_project.js",
+    "test:rogue": "node tools/test_rogue_logic.js",
+    "test:rogue-skills": "node tools/test_rogue_skill_synergy.js",
+    "test:risk": "node tools/test_risk_hardening.js",
+    "validate:rogue": "node tools/validate_rogue.js",
+    "watch": "node tools/watch_project.js",
+    "prepublishOnly": "node tools/build_project.js",
+    "run": "run ."
+  },
+  "author": "gamecretaor",
+  "license": "ISC",
+  "window": {
+    "width": 1500,
+    "height": 900,
+    "icon": "icon.png"
+  },
+  "devDependencies": {
+    "@gamecreator/gc-editor-release": "^0.0.1",
+    "@gamecreator/gc-template-vscode": "^0.0.8",
+    "typescript": "^4.5.2"
+  }
+}

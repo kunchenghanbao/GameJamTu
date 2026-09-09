@@ -1,0 +1,23 @@
+{
+    "sceneObjects": [
+        null
+    ],
+    "customCommands": [
+        [
+            [
+                -1,
+                {
+                    "___cmdID": "144465013662_0.13253020585370212"
+                }
+            ]
+        ]
+    ],
+    "customAttributes": [],
+    "modulesCustomAttributes": [],
+    "customAttributesCaches": [],
+    "modulesCustomAttributesCaches": [],
+    "events": [],
+    "statusPages": [],
+    "statusPagesSelectedIndexs": [],
+    "id": 12
+}

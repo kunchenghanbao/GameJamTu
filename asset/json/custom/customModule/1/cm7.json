@@ -1,0 +1,95 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/icon/item/Potion_HP_Strong.png",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "为友方单体回复220点生命值。",
+            "copy": false
+        },
+        "sell": {
+            "varType": 0,
+            "value": 80,
+            "copy": false
+        },
+        "isUse": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "sellEnabled": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "isConsumables": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "se": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "callEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "useType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "isSingleTarget": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "releaseAnimation": {
+            "varType": 0,
+            "value": 63,
+            "copy": false
+        },
+        "recoveryHP": {
+            "varType": 0,
+            "value": 220,
+            "copy": false
+        },
+        "recoverySP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "costActionPower": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "addStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "removeStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "描述": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "未命名变量": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        }
+    },
+    "id": 7
+}

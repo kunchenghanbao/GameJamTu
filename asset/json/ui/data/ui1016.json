@@ -1,0 +1,283 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "52668508790_0.4146352244222731",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "unitemBtn",
+                "x": 0,
+                "y": 0,
+                "width": 490,
+                "height": 100,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/item_Bg2_normal.png",
+                "grid9": "0,50,0,50,0",
+                "flip": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "52668597926_0.20791701610758873",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "卸下道具",
+                        "x": 0,
+                        "y": 0,
+                        "width": 490,
+                        "height": 100,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "卸下当前道具",
+                        "fontSize": 30,
+                        "color": "#331f0f",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 0,
+                        "shadowDy": 0,
+                        "stroke": 0,
+                        "strokeColor": "#000000"
+                    }
+                ]
+            },
+            {
+                "id": "42770339857_0.6527414758234169",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "itemBox",
+                "x": 0,
+                "y": 0,
+                "width": 490,
+                "height": 100,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/item_Bg2_normal.png",
+                "grid9": "0,50,0,50,0",
+                "flip": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "154925514458_0.9659580557441141",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "道具背景",
+                        "x": 39,
+                        "y": 0,
+                        "width": 100,
+                        "height": 100,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/icon_bg_normal.png",
+                        "grid9": "45,45,45,45,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "42770531982_0.8596539318190921",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "icon",
+                        "x": 56,
+                        "y": 18,
+                        "width": 65,
+                        "height": 65,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/icon/item/Potion_1.png",
+                        "grid9": "3,3,3,3,0",
+                        "flip": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "42772344873_0.9169556854334031",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "itemNum",
+                        "x": 372,
+                        "y": 38,
+                        "width": 60,
+                        "height": 26,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "99x",
+                        "fontSize": 26,
+                        "color": "#331f0f",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 2,
+                        "valign": 0,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 0,
+                        "shadowDy": 0,
+                        "stroke": 0,
+                        "strokeColor": "#000000"
+                    },
+                    {
+                        "id": "52590829138_0.9474628336361526",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "itemName",
+                        "x": 155,
+                        "y": 35,
+                        "width": 182,
+                        "height": 26,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "道具名称",
+                        "fontSize": 26,
+                        "color": "#331f0f",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 0,
+                        "valign": 0,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 0,
+                        "shadowDy": 0,
+                        "stroke": 0,
+                        "strokeColor": "#000000"
+                    },
+                    {
+                        "id": "154925514458_0.7774493865512966",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "图标框",
+                        "x": 39,
+                        "y": 0,
+                        "width": 100,
+                        "height": 100,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/icon_frame.png",
+                        "grid9": "50,50,50,50,0",
+                        "pivotType": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "instanceClassName": "",
+    "id": 1016,
+    "hasRootCommand": [],
+    "lock": true
+}

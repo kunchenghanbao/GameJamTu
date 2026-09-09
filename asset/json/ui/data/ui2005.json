@@ -1,0 +1,94 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "156292120218_0.5410622540753338",
+                "condition": [],
+                "type": "UISlider",
+                "name": "loadingSlider",
+                "x": 296,
+                "y": 825,
+                "width": 1007,
+                "height": 37,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image1": "asset/image/picture/control/slider_bg.png",
+                "bgGrid9": "4,5,4,5,0",
+                "image2": "",
+                "blockGrid9": "5,5,5,5,0",
+                "image3": "asset/image/picture/control/slider_bgfill.png",
+                "blockFillGrid9": "3,5,3,5,0",
+                "step": 1,
+                "min": 0,
+                "max": 100,
+                "value": 0,
+                "transverseMode": true,
+                "blockFillMode": 2,
+                "blockPosMode": 0,
+                "fillStrething": false,
+                "isBindingVarID": false,
+                "bindingVarID": -1
+            },
+            {
+                "id": "156292161401_0.3778979512844556",
+                "condition": [],
+                "type": "UIString",
+                "name": "文本",
+                "x": 1071,
+                "y": 783,
+                "width": 224,
+                "height": 30,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "战斗载入中......",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 2,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": false,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 4,
+                "strokeColor": "#191919"
+            }
+        ]
+    },
+    "id": 2005,
+    "lock": true,
+    "hasRootCommand": []
+}

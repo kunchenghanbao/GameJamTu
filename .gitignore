@@ -1,0 +1,21 @@
+# Dependencies and local tool environments
+/node_modules/
+/.venv-imagegen/
+
+# Generated builds, exports, caches and local saves
+/tmp/
+/out/
+/release/
+/bin_release/
+/output/
+/savedata/
+/gcUserData/
+/操行评分输出/
+
+# Large packaged artifacts
+*.apk
+*.aab
+
+# Local scratch files
+/.tmp_*
+*.log

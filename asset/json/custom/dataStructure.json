@@ -1,0 +1,52 @@
+{
+    "list": {
+        "1": [
+            null,
+            "preloadAsset",
+            "packageItem",
+            "keys",
+            "point",
+            "shopItem",
+            "gameKeyboard",
+            "inputMessage",
+            "collisionGroupSetting"
+        ],
+        "2": [
+            null,
+            "dropItem",
+            "dropEquip",
+            "classValidity",
+            "levelUpLearnSkill",
+            "inPartyActor",
+            "",
+            "battlerHate",
+            "equipRand",
+            "specialBattleEffect",
+            "equipQualitySetting"
+        ],
+        "3": [
+            null,
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "customAttribute",
+            "customAttributeGrow",
+            "customAttributeSetting"
+        ],
+        "16": [
+            null,
+            "高级条件分歧游戏变量",
+            "高级条件分歧可视化"
+        ]
+    },
+    "type": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "16": "插件"
+    }
+}

@@ -1,0 +1,287 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "42750568934_0.10238686507593564",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "界面背景1",
+                "x": 467,
+                "y": 226,
+                "width": 665,
+                "height": 450,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/windows_green.png",
+                "grid9": "140,185,140,185,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "145932016389_0.5508148845412972",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "界面背景2",
+                "x": 520,
+                "y": 279,
+                "width": 560,
+                "height": 342,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/windows_white.png",
+                "grid9": "40,40,40,40,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "145932139530_0.5420228220897261",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "界面装饰",
+                "x": 465,
+                "y": 224,
+                "width": 670,
+                "height": 452,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/windows_frame.png",
+                "grid9": "150,190,150,190,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "145933229218_0.1259631022648251",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "界面花纹",
+                "x": 526,
+                "y": 280,
+                "width": 550,
+                "height": 89,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/windows_figure.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": true,
+                "pivotType": 0
+            },
+            {
+                "id": "145932802979_0.22027402190683731",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "内容底衬",
+                "x": 540,
+                "y": 499,
+                "width": 520,
+                "height": 100,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/windows_content_bg.png",
+                "grid9": "40,40,40,40,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "42750578545_0.5572404876744541",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "输入框背景",
+                "x": 570,
+                "y": 375,
+                "width": 460,
+                "height": 65,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/InputBox.png",
+                "grid9": "0,40,0,40,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "42750648781_0.6423333117128123",
+                        "condition": [],
+                        "type": "UIInput",
+                        "name": "input",
+                        "x": 26,
+                        "y": 18,
+                        "width": 408,
+                        "height": 30,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "",
+                        "fontSize": 30,
+                        "color": "#fffae5",
+                        "prompt": "请输入文本...",
+                        "promptColor": "#d8d8d8",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "leading": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "restrict": "",
+                        "inputMode": 0,
+                        "maxChars": 40,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "onInputFragEvent": null,
+                        "onEnterFragEvent": null
+                    }
+                ]
+            },
+            {
+                "id": "42750672835_0.9916632150539608",
+                "condition": [],
+                "type": "UIButton",
+                "name": "提交文本输入按钮",
+                "x": 675,
+                "y": 512,
+                "width": 250,
+                "height": 75,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "提交",
+                "image1": "asset/image/picture/control/btn_big_yellow_normal.png",
+                "grid9img1": "0,125,0,125,0",
+                "image2": "asset/image/picture/control/btn_big_yellow_nover.png",
+                "grid9img2": "0,125,0,125,0",
+                "image3": "asset/image/picture/control/btn_big_yellow_click.png",
+                "grid9img3": "0,125,0,125,0",
+                "fontSize": 30,
+                "color": "#fffae5",
+                "overColor": "#fffae5",
+                "clickColor": "#fffae5",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            }
+        ]
+    },
+    "id": 7,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

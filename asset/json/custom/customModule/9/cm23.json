@@ -1,0 +1,16 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/Knuckle_3.png", "copy": false },
+        "intro": { "varType": 1, "value": "熟铁甲片覆盖拳峰，能将贴身打击转化为沉重冲击。", "copy": false },
+        "sell": { "varType": 0, "value": 100, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 1, "copy": false },
+        "type": { "varType": 0, "value": 11, "copy": false },
+        "quality": { "varType": 0, "value": 3, "copy": false },
+        "atk": { "varType": 0, "value": 20, "copy": false },
+        "hit": { "varType": 0, "value": 5, "copy": false },
+        "dod": { "varType": 0, "value": 3, "copy": false },
+        "crit": { "varType": 0, "value": 5, "copy": false }
+    },
+    "id": 23
+}

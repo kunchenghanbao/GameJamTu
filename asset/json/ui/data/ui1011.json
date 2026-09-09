@@ -1,0 +1,130 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "109824963422_0.32128352358731416",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "头像底衬",
+                "x": 0,
+                "y": 0,
+                "width": 149,
+                "height": 150,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/head_normal.png",
+                "grid9": "60,60,60,60,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "107267764120_0.4736321254099054",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "face",
+                "x": 10,
+                "y": 10,
+                "width": 130,
+                "height": 130,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/face/swordman/Swordman_normal.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "154927333533_0.1508941473934482",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "头像框",
+                "x": 0,
+                "y": 0,
+                "width": 149,
+                "height": 150,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/head_frame.png",
+                "grid9": "45,45,45,45,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "52759337262_0.5836118928440586",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "ai",
+                "x": 10,
+                "y": 10,
+                "width": 36,
+                "height": 36,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/ai.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            }
+        ]
+    },
+    "id": 1011,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

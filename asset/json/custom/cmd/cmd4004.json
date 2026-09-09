@@ -1,0 +1,18 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 4004,
+    "blockList": [
+        {
+            "name": "禁止使用菜单",
+            "blockAttrs": [],
+            "blockCondition": [],
+            "blockHeight": 35,
+            "autoOrder": true,
+            "cmdColor": "#59acff",
+            "hideBlockTitle": false,
+            "cmdIcon": "asset/image/command/eP_icon_ClearMenu_blue.png"
+        }
+    ],
+    "isCustomPhraseDesc": false,
+    "fastModifyAttribute": false
+}

@@ -1,0 +1,19 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 4002,
+    "blockList": [
+        {
+            "name": "禁止玩家控制",
+            "blockAttrs": [],
+            "blockCondition": [],
+            "blockHeight": 35,
+            "autoOrder": true,
+            "cmdColor": "#59acff",
+            "hideBlockTitle": false,
+            "cmdIcon": "asset/image/command/eP_icon_ClearPlayerMovement_blue.png"
+        }
+    ],
+    "isCustomPhraseDesc": false,
+    "compAutoOrder": false,
+    "fastModifyAttribute": false
+}

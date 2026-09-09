@@ -1,0 +1,65 @@
+{
+    "attrs": {
+        "lvUpAutoGetSkills": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        },
+        "icon": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "levelUpEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "equipSetting": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "MaxHPGrow": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "MaxSPGrow": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "POWGrow": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "ENDGrow": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "MAGGrow": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "AGIGrow": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "needEXPGrow": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "成长设定": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        }
+    },
+    "id": 1
+}

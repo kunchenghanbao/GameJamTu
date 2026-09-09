@@ -1,0 +1,30 @@
+{
+    "allowClient": false,
+    "conditionSwitch": 1,
+    "updateMode": false,
+    "commands": [
+        [
+            18,
+            "//------------------------------------------------------------------------------------------------------\n//  新的回合开始时执行的事件\n//------------------------------------------------------------------------------------------------------",
+            {
+                "___cmdID": "86762093144_0.7114386401007646"
+            }
+        ],
+        [
+            20,
+            "清理临时自动战斗状态",
+            "// 当前的事件触发器：trigger: CommandTrigger;\nfor (let i = 0; i < GameBattle.playerBattlers.length; i++) {\n    let battler = GameBattle.playerBattlers[i];\n    let battlerModule = battler.getModule(6) as SoModule_Battler;\n    if (battlerModule.actor.AIRecord != 0) {\n        battlerModule.actor.AI = battlerModule.actor.AIRecord == 1 ? true : false;\n        battlerModule.actor.AIRecord = 0;\n    }\n}",
+            "for (var i = 0; i < GameBattle.playerBattlers.length; i++) {\n    var battler = GameBattle.playerBattlers[i];\n    var battlerModule = battler.getModule(6);\n    if (battlerModule.actor.AIRecord != 0) {\n        battlerModule.actor.AI = battlerModule.actor.AIRecord == 1 ? true : false;\n        battlerModule.actor.AIRecord = 0;\n    }\n}\n",
+            {
+                "___cmdID": "89971732415_0.996465476663958"
+            }
+        ],
+        [
+            -1,
+            {
+                "___cmdID": "86762092463_0.5274661242164134"
+            }
+        ]
+    ],
+    "id": 14031
+}

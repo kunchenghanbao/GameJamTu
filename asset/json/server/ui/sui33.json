@@ -1,0 +1,194 @@
+{
+    "53849825330_0.16895329706054762": {
+        "condition": [],
+        "commands": [
+            [
+                [
+                    22,
+                    -1,
+                    0,
+                    [
+                        [
+                            19
+                        ]
+                    ],
+                    0,
+                    0,
+                    true,
+                    15025,
+                    {
+                        "___cmdID": "53850645451_0.6500588650757091"
+                    }
+                ],
+                [
+                    20,
+                    "应用朝向",
+                    "// 当前的事件触发器：trigger: CommandTrigger;\nGameBattleController.applyChangeBattlerOri();",
+                    "GameBattleController.applyChangeBattlerOri();\n",
+                    {
+                        "___cmdID": "53851549532_0.9438712441943446"
+                    }
+                ]
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "53849845845_0.6115682096217006": {
+        "condition": [],
+        "commands": [
+            [
+                [
+                    22,
+                    -1,
+                    0,
+                    [
+                        [
+                            17
+                        ]
+                    ],
+                    0,
+                    0,
+                    true,
+                    15025,
+                    {
+                        "___cmdID": "53850665181_0.6002547124021114"
+                    }
+                ],
+                [
+                    20,
+                    "应用朝向",
+                    "// 当前的事件触发器：trigger: CommandTrigger;\nGameBattleController.applyChangeBattlerOri();",
+                    "GameBattleController.applyChangeBattlerOri();\n",
+                    {
+                        "___cmdID": "53851575337_0.4081974083115312"
+                    }
+                ]
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "53849847561_0.2069628545936355": {
+        "condition": [],
+        "commands": [
+            [
+                [
+                    22,
+                    -1,
+                    0,
+                    [
+                        [
+                            18
+                        ]
+                    ],
+                    0,
+                    0,
+                    true,
+                    15025,
+                    {
+                        "___cmdID": "53850667432_0.5944194917731209"
+                    }
+                ],
+                [
+                    20,
+                    "应用朝向",
+                    "// 当前的事件触发器：trigger: CommandTrigger;\nGameBattleController.applyChangeBattlerOri();",
+                    "GameBattleController.applyChangeBattlerOri();\n",
+                    {
+                        "___cmdID": "53851577131_0.23628685174807496"
+                    }
+                ]
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "53849848997_0.4916348872236984": {
+        "condition": [],
+        "commands": [
+            [
+                [
+                    22,
+                    -1,
+                    0,
+                    [
+                        [
+                            16
+                        ]
+                    ],
+                    0,
+                    0,
+                    true,
+                    15025,
+                    {
+                        "___cmdID": "53850666069_0.4400644934608777"
+                    }
+                ],
+                [
+                    20,
+                    "应用朝向",
+                    "// 当前的事件触发器：trigger: CommandTrigger;\nGameBattleController.applyChangeBattlerOri();",
+                    "GameBattleController.applyChangeBattlerOri();\n",
+                    {
+                        "___cmdID": "53851573514_0.5717676434818475"
+                    }
+                ]
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    "root": {
+        "commands": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    }
+}

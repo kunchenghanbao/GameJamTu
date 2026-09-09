@@ -1,0 +1,176 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "52590847615_0.6478141175022349",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "技能图标背景",
+                "x": 0,
+                "y": 0,
+                "width": 330,
+                "height": 130,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/item_Bg1_normal.png",
+                "grid9": "30,30,30,30,0",
+                "flip": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "53933429151_0.5189281144086832",
+                        "condition": [],
+                        "type": "UIRoot",
+                        "name": "技能图标容器",
+                        "x": 44,
+                        "y": 27,
+                        "width": 70,
+                        "height": 70,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "enabledLimitView": null,
+                        "scrollShowType": 2,
+                        "hScrollBar": "asset/image/picture/control/hscroll_bar.png",
+                        "hScrollBg": "",
+                        "vScrollBar": "asset/image/picture/control/vscroll_bar.png",
+                        "vScrollBg": "",
+                        "scrollWidth": 16,
+                        "slowmotionType": 0,
+                        "enabledWheel": true,
+                        "hScrollValue": 0,
+                        "vScrollValue": 0,
+                        "children": [
+                            {
+                                "id": "52590847615_0.9811374449238053",
+                                "condition": [],
+                                "type": "UIBitmap",
+                                "name": "icon",
+                                "x": -4,
+                                "y": -2,
+                                "width": 80,
+                                "height": 80,
+                                "opacity": 1,
+                                "rotation": 0,
+                                "show": true,
+                                "mouseEventEnabledData": true,
+                                "materialData": [
+                                    {
+                                        "materials": []
+                                    }
+                                ],
+                                "mouseEventEnabledInEditor": true,
+                                "lock": true,
+                                "showOnEditor": true,
+                                "hasCommand": [],
+                                "isOpen": true,
+                                "image": "asset/image/picture/icon/skill/Sword_slashDown.png",
+                                "grid9": "0,0,0,0,0",
+                                "flip": null,
+                                "pivotType": 0
+                            },
+                            {
+                                "id": "108090050825_0.48815039704026053",
+                                "condition": [],
+                                "type": "UIString",
+                                "name": "skillName",
+                                "x": 103,
+                                "y": 22,
+                                "width": 143,
+                                "height": 26,
+                                "opacity": 1,
+                                "rotation": 0,
+                                "show": true,
+                                "mouseEventEnabledData": false,
+                                "materialData": [
+                                    {
+                                        "materials": []
+                                    }
+                                ],
+                                "mouseEventEnabledInEditor": true,
+                                "lock": true,
+                                "showOnEditor": true,
+                                "hasCommand": [],
+                                "isOpen": true,
+                                "text": "技能名称",
+                                "fontSize": 26,
+                                "color": "#331f0f",
+                                "bold": true,
+                                "italic": false,
+                                "smooth": true,
+                                "align": 0,
+                                "valign": 1,
+                                "leading": 0,
+                                "letterSpacing": 0,
+                                "font": "Source_Han_Sans",
+                                "wordWrap": true,
+                                "overflow": 0,
+                                "shadowEnabled": null,
+                                "shadowColor": "#000000",
+                                "shadowDx": 1,
+                                "shadowDy": 1,
+                                "stroke": 0,
+                                "strokeColor": "#000000",
+                                "onChangeFragEvent": null
+                            },
+                            {
+                                "id": "154922690903_0.30251319300390644",
+                                "condition": [],
+                                "type": "UIBitmap",
+                                "name": "技能图标框",
+                                "x": -7,
+                                "y": -4,
+                                "width": 85,
+                                "height": 85,
+                                "opacity": 1,
+                                "rotation": 0,
+                                "show": true,
+                                "mouseEventEnabledData": false,
+                                "materialData": [
+                                    {
+                                        "materials": []
+                                    }
+                                ],
+                                "mouseEventEnabledInEditor": true,
+                                "lock": false,
+                                "showOnEditor": true,
+                                "hasCommand": [],
+                                "isOpen": true,
+                                "image": "asset/image/picture/control/screenshotFrame.png",
+                                "grid9": "0,0,0,0,0",
+                                "pivotType": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "id": 1013,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

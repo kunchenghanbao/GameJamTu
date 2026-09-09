@@ -1,0 +1,18 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 4010,
+    "blockList": [
+        {
+            "name": "恢复游戏",
+            "blockAttrs": [],
+            "blockCondition": [],
+            "blockHeight": 35,
+            "autoOrder": true,
+            "cmdColor": "#59acff",
+            "hideBlockTitle": false,
+            "cmdIcon": "asset/image/command/eP_icon_ResumeGame_blue.png"
+        }
+    ],
+    "fastModifyAttribute": false,
+    "isCustomPhraseDesc": false
+}

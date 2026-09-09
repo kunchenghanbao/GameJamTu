@@ -1,0 +1,359 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "52668508790_0.4146352244222731",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "unequipBtn",
+                "x": 0,
+                "y": 0,
+                "width": 490,
+                "height": 100,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "",
+                "grid9": "25,25,25,25,0",
+                "flip": null,
+                "isTile": false,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "109902320751_0.481418478150357",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "卸下装备背景",
+                        "x": 0,
+                        "y": 0,
+                        "width": 490,
+                        "height": 100,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/item_Bg2_normal.png",
+                        "grid9": "0,50,0,50,0",
+                        "flip": null,
+                        "isTile": false,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "52668597926_0.20791701610758873",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "卸下装备文本",
+                        "x": 0,
+                        "y": 0,
+                        "width": 490,
+                        "height": 100,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "卸下当前装备",
+                        "fontSize": 30,
+                        "color": "#331f0f",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    }
+                ]
+            },
+            {
+                "id": "42770339857_0.6527414758234169",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "equipBox",
+                "x": 0,
+                "y": 0,
+                "width": 490,
+                "height": 100,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "",
+                "grid9": "1,1,1,1,0",
+                "flip": null,
+                "isTile": false,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "108098275185_0.8787344663868801",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "装备背景",
+                        "x": 0,
+                        "y": 0,
+                        "width": 490,
+                        "height": 100,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/item_Bg2_normal.png",
+                        "grid9": "0,50,0,50,0",
+                        "flip": null,
+                        "isTile": false,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "154924130363_0.09458339999609233",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "道具背景",
+                        "x": 39,
+                        "y": 0,
+                        "width": 100,
+                        "height": 100,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/icon_bg_normal.png",
+                        "grid9": "45,45,45,45,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "42770531982_0.8596539318190921",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "icon",
+                        "x": 56,
+                        "y": 18,
+                        "width": 65,
+                        "height": 65,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/icon/equipment/Sword_1.png",
+                        "grid9": "3,3,3,3,0",
+                        "flip": null,
+                        "isTile": false,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "42772344873_0.9169556854334031",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "itemNum",
+                        "x": 372,
+                        "y": 38,
+                        "width": 60,
+                        "height": 26,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "99x",
+                        "fontSize": 26,
+                        "color": "#331f0f",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 2,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    },
+                    {
+                        "id": "52590829138_0.9474628336361526",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "itemName",
+                        "x": 155,
+                        "y": 35,
+                        "width": 188,
+                        "height": 26,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "装备名称",
+                        "fontSize": 26,
+                        "color": "#331f0f",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 0,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    },
+                    {
+                        "id": "154924024511_0.8296532664825254",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "图标框",
+                        "x": 39,
+                        "y": 0,
+                        "width": 100,
+                        "height": 100,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/icon_frame.png",
+                        "grid9": "50,50,50,50,0",
+                        "flip": false,
+                        "isTile": false,
+                        "pivotType": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "instanceClassName": "",
+    "id": 1014,
+    "hasRootCommand": [],
+    "lock": true
+}

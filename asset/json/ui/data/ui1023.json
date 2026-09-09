@@ -1,0 +1,143 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "53042540012_0.30724092644430523",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "界面背景",
+                "x": 8,
+                "y": 49,
+                "width": 1583,
+                "height": 702,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/playerPhase.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "57453713697_0.9880237430880883",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "battleStageLabel3",
+                        "x": 534,
+                        "y": 584,
+                        "width": 514,
+                        "height": 85,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "回合",
+                        "fontSize": 50,
+                        "color": "#f3ead2",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": false,
+                        "shadowColor": "#000000",
+                        "shadowDx": 0,
+                        "shadowDy": 0,
+                        "stroke": 2,
+                        "strokeColor": "#08479d",
+                        "onChangeFragEvent": null
+                    },
+                    {
+                        "id": "57471774725_0.4859811167471253",
+                        "condition": [],
+                        "type": "UICustomGameNumber",
+                        "name": "当前回合数",
+                        "x": 669,
+                        "y": 682,
+                        "width": 244,
+                        "height": 50,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "customData": [
+                            10,
+                            {
+                                "type": 0
+                            },
+                            [
+                                {
+                                    "55512631094_0.6888093980292296": 0
+                                }
+                            ]
+                        ],
+                        "previewNum": 2,
+                        "previewFixed": 0,
+                        "fontSize": 50,
+                        "color": "#f3ead2",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "valign": 0,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 2,
+                        "strokeColor": "#08479d"
+                    }
+                ]
+            }
+        ]
+    },
+    "id": 1023,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

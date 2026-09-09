@@ -1,0 +1,349 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "58174445765_0.9387422521542819",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "透明背景",
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900,
+                "opacity": 0,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": false,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/other/Black.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0
+            },
+            {
+                "id": "53451477675_0.20420835365166656",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "技能栏背景",
+                "x": 465,
+                "y": 224,
+                "width": 670,
+                "height": 451,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "155008840777_0.05696127644739035",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "界面背景1",
+                        "x": 2,
+                        "y": 2,
+                        "width": 665,
+                        "height": 450,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/windows_green.png",
+                        "grid9": "140,185,140,185,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "155008840777_0.8744977758613357",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "界面背景2",
+                        "x": 55,
+                        "y": 55,
+                        "width": 560,
+                        "height": 157,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/windows_white.png",
+                        "grid9": "40,40,40,40,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "155008840778_0.5100191029976138",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "界面装饰",
+                        "x": 0,
+                        "y": 0,
+                        "width": 670,
+                        "height": 452,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/windows_frame.png",
+                        "grid9": "150,190,150,190,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "155008840778_0.3635672332549844",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "界面花纹",
+                        "x": 61,
+                        "y": 56,
+                        "width": 550,
+                        "height": 89,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/windows_figure.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "isTile": true,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "53451477676_0.3237311529174176",
+                        "condition": [],
+                        "type": "UIList",
+                        "name": "skillList",
+                        "x": 80,
+                        "y": 87,
+                        "width": 520,
+                        "height": 101,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "itemModelGUI": 1033,
+                        "previewSize": 5,
+                        "selectEnable": true,
+                        "repeatX": 5,
+                        "itemWidth": 100,
+                        "itemHeight": 100,
+                        "spaceX": 5,
+                        "spaceY": 5,
+                        "scrollShowType": 2,
+                        "hScrollBar": "asset/image/picture/control/hscroll_bar.png",
+                        "hScrollBg": "",
+                        "vScrollBar": "asset/image/picture/control/vscroll_bar.png",
+                        "vScrollBg": "asset/image/picture/control/vscroll_bg.png",
+                        "scrollWidth": 10,
+                        "selectImageURL": "asset/image/picture/control/skill_selected.png",
+                        "selectImageGrid9": "50,50,50,50,0",
+                        "selectedImageAlpha": 1,
+                        "selectedImageOnTop": true,
+                        "overImageURL": "asset/image/picture/control/skill_selected.png",
+                        "overImageGrid9": "50,50,50,50,0",
+                        "overImageAlpha": 1,
+                        "overImageOnTop": true,
+                        "overSelectMode": true,
+                        "slowmotionType": 0
+                    }
+                ]
+            },
+            {
+                "id": "53451857892_0.23820267772157933",
+                "condition": [],
+                "type": "UIGUI",
+                "name": "tipsUI",
+                "x": 538,
+                "y": 451,
+                "width": 0,
+                "height": 0,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "guiID": 1027,
+                "instanceClassName": ""
+            },
+            {
+                "id": "53453444392_0.4194503639646978",
+                "condition": [],
+                "type": "UIButton",
+                "name": "关闭技能栏按钮",
+                "x": 1036,
+                "y": 236,
+                "width": 81,
+                "height": 81,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "",
+                "image1": "asset/image/picture/control/btn_circ_green_normal.png",
+                "grid9img1": "0,0,0,0,0",
+                "image2": "asset/image/picture/control/btn_circ_green_over.png",
+                "grid9img2": "0,0,0,0,0",
+                "image3": "asset/image/picture/control/btn_circ_green_click.png",
+                "grid9img3": "0,0,0,0,0",
+                "fontSize": 16,
+                "color": "#999999",
+                "overColor": "#999999",
+                "clickColor": "#999999",
+                "bold": false,
+                "italic": false,
+                "smooth": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000",
+                "children": [
+                    {
+                        "id": "155009294737_0.6024395996232887",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "关闭标志",
+                        "x": 19,
+                        "y": 19,
+                        "width": 43,
+                        "height": 43,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/close.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "id": 25,
+    "instanceClassName": "GUI_BattleSkill",
+    "hasRootCommand": [],
+    "lock": true
+}

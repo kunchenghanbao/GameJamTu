@@ -1,0 +1,167 @@
+{
+    "list": [
+        null,
+        "示例（可删除）",
+        "开始",
+        "关卡",
+        "战斗画面",
+        "关卡1-普通战役",
+        "关卡2-BOSS1",
+        "关卡3-BOSS2",
+        "关卡4-剧情战斗1",
+        "战斗画面-野外F1",
+        "战斗画面-野外F2",
+        "战斗画面_城镇F1",
+        "战斗画面_城镇S1",
+        "关卡4-剧情战斗2",
+        "战斗画面_未来F1",
+        "关卡5-边境林道伏击",
+        "关卡6-Arkanos庭院",
+        "肉鸽-战斗节点A",
+        "肉鸽-战斗节点B",
+        "肉鸽-Boss节点",
+        "肉鸽-林道废墟",
+        "肉鸽-庭院回廊",
+        "肉鸽-腐化祭坛",
+        "肉鸽-深渊王座",
+        "肉鸽-星陨圣坛",
+        null,
+        null,
+        null,
+        null
+    ],
+    "node": [
+        {
+            "id": 1,
+            "name": "示例（可删除）",
+            "children": [
+                {
+                    "id": 2,
+                    "name": "开始",
+                    "children": []
+                },
+                {
+                    "id": 3,
+                    "name": "关卡",
+                    "children": [
+                        {
+                            "id": 5,
+                            "name": "关卡1-普通战役",
+                            "children": [],
+                            "isOpen": true
+                        },
+                        {
+                            "id": 6,
+                            "name": "关卡2-BOSS1",
+                            "children": [],
+                            "isOpen": true
+                        },
+                        {
+                            "id": 7,
+                            "name": "关卡3-BOSS2",
+                            "children": [],
+                            "isOpen": true
+                        },
+                        {
+                            "id": 8,
+                            "name": "关卡4-剧情战斗1",
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "name": "关卡4-剧情战斗2",
+                                    "children": []
+                                }
+                            ],
+                            "isOpen": true
+                        },
+                        {
+                            "id": 15,
+                            "name": "关卡5-边境林道伏击",
+                            "children": []
+                        },
+                        {
+                            "id": 16,
+                            "name": "关卡6-Arkanos庭院",
+                            "children": []
+                        },
+                        {
+                            "id": 17,
+                            "name": "肉鸽-战斗节点A",
+                            "children": []
+                        },
+                        {
+                            "id": 18,
+                            "name": "肉鸽-战斗节点B",
+                            "children": []
+                        },
+                        {
+                            "id": 19,
+                            "name": "肉鸽-Boss节点",
+                            "children": []
+                        },
+                        {
+                            "id": 20,
+                            "name": "肉鸽-林道废墟",
+                            "children": []
+                        },
+                        {
+                            "id": 21,
+                            "name": "肉鸽-庭院回廊",
+                            "children": []
+                        },
+                        {
+                            "id": 22,
+                            "name": "肉鸽-腐化祭坛",
+                            "children": []
+                        },
+                        {
+                            "id": 23,
+                            "name": "肉鸽-深渊王座",
+                            "children": []
+                        },
+                        {
+                            "id": 24,
+                            "name": "肉鸽-星陨圣坛",
+                            "children": []
+                        }
+                    ],
+                    "isOpen": true
+                },
+                {
+                    "id": 4,
+                    "name": "战斗画面",
+                    "children": [
+                        {
+                            "id": 9,
+                            "name": "战斗画面-野外F1",
+                            "children": []
+                        },
+                        {
+                            "id": 10,
+                            "name": "战斗画面-野外F2",
+                            "children": [],
+                            "isOpen": true
+                        },
+                        {
+                            "id": 11,
+                            "name": "战斗画面_城镇F1",
+                            "children": []
+                        },
+                        {
+                            "id": 12,
+                            "name": "战斗画面_城镇S1",
+                            "children": []
+                        },
+                        {
+                            "id": 14,
+                            "name": "战斗画面_未来F1",
+                            "children": []
+                        }
+                    ],
+                    "isOpen": true
+                }
+            ],
+            "isOpen": true
+        }
+    ]
+}

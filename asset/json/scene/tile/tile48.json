@@ -1,0 +1,38 @@
+{
+    "url":  "asset/image/tile/Arkanos_1_small_props_01.png",
+    "dataLayers":  [
+                       [
+                           [
+                               0,
+                               0
+                           ],
+                           [
+                               0,
+                               0
+                           ]
+                       ],
+                       [
+                           [
+                               0,
+                               0
+                           ],
+                           [
+                               0,
+                               0
+                           ]
+                       ],
+                       [
+                           [
+                               0,
+                               0
+                           ],
+                           [
+                               0,
+                               0
+                           ]
+                       ]
+                   ],
+    "width":  96,
+    "height":  96,
+    "id":  48
+}

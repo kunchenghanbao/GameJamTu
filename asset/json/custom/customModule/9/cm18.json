@@ -1,0 +1,14 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/Staff_Q1.png", "copy": false },
+        "intro": { "varType": 1, "value": "以普通木材和微光晶石制成的学徒法杖。", "copy": false },
+        "sell": { "varType": 0, "value": 20, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 1, "copy": false },
+        "type": { "varType": 0, "value": 2, "copy": false },
+        "quality": { "varType": 0, "value": 1, "copy": false },
+        "atk": { "varType": 0, "value": 3, "copy": false },
+        "mag": { "varType": 0, "value": 3, "copy": false }
+    },
+    "id": 18
+}

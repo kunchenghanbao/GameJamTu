@@ -1,0 +1,15 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/Taiyue_Head.png", "copy": false },
+        "intro": { "varType": 1, "value": "【泰岳套系】\n四件效果·泰岳之势：最大生命+200，防御力+50，攻击力+20，暴击+5；受击后若攻击者在普通攻击范围内，以50%伤害反击。", "copy": false },
+        "sell": { "varType": 0, "value": 700, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 2, "copy": false },
+        "type": { "varType": 0, "value": 5, "copy": false },
+        "quality": { "varType": 0, "value": 5, "copy": false },
+        "maxHP": { "varType": 0, "value": 80, "copy": false },
+        "def": { "varType": 0, "value": 28, "copy": false },
+        "magDef": { "varType": 0, "value": 10, "copy": false }
+    },
+    "id": 1008
+}

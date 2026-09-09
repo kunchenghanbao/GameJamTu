@@ -1,0 +1,48 @@
+{
+    "preLayer": [],
+    "varAttributes": [
+        {
+            "id": "78246468863_0.5766534686668932",
+            "varName": "materialData",
+            "varType": 5,
+            "compData": {
+                "compType": 43,
+                "compParam": {}
+            },
+            "defaultValue": "",
+            "hideMode": false,
+            "useCommand": false,
+            "onlyPointTo": false,
+            "moduleID": 1,
+            "dataStructureID": 1,
+            "arrayMode": false,
+            "arrayLength": 100,
+            "arrayAllowDelete": false,
+            "arrayAllowSwap": false,
+            "arrayAllowUpdate": false,
+            "accessMode": 1,
+            "syncMode": 1,
+            "attrTips": "",
+            "alias": "",
+            "onlyConfig": false,
+            "preview": false,
+            "autoTitleWidth": true,
+            "titleWidth": 100,
+            "eyeShow": true,
+            "lockBlock": false,
+            "enumEnable_get": false,
+            "enumEnable_set": false
+        }
+    ],
+    "attrConditions": [
+        []
+    ],
+    "presetModules": [],
+    "serverInstanceClassName": null,
+    "clientInstanceClassName": "SoModule_AvatarMaterial",
+    "supportTriggerTypes": [],
+    "supportStatusPage": true,
+    "id": 2,
+    "editorPreviewTS": "//------------------------------------------------------------------------------------------------------\n//  ■ 用于实现场景对象的实时编辑器预览效果\n//    -- 该代码为私有域，可任意增加变量，该变量作用域仅供此处使用\n//    -- 该代码执行在编辑器中，所以一些游戏运行时独有的函数/类可能无法使用\n//    -- 一旦编写了注册相关的逻辑，需要在onRemoved时取消该注册（如setInterval/os.add_ENTERFRAME等）\n//       如果该模块已附加在了实体对象上，那么请在编写取消注册的逻辑后再保存或确定，否则可能造成泄漏\n//       如果发生不可逆的泄漏，已经影响到了显示和操作，只能在编写正确的代码后通过重启编辑器解决。\n//------------------------------------------------------------------------------------------------------\n/**\n * 当前模块\n */\ndeclare var soModule: SceneObjectModule_2;\n/**\n * 当前模块的拥有者\n */\ndeclare var owner: GameClientSceneObject;\n/**\n * 当前模块初始化（当添加该模块时）\n */\nfunction init(): void {\n    owner.avatar.clearMaterials();\n    owner.avatar.installMaterialData(soModule.materialData)\n}\n/**\n * 当移除该模块时\n * 一些自己增加的逻辑如需销毁，必须在此函数中实现\n */\nfunction onRemoved(): void {\n    owner.avatar.clearMaterials();\n}\n/**\n * 当改变当前模块属性时\n * @param attrName 模块的属性名称 \n */\nfunction onChange(attrName: string): void {\n    owner.avatar.clearMaterials();\n    owner.avatar.installMaterialData(soModule.materialData)\n}\n/**\n * 当前模块每帧执行的函数\n */\nfunction onUpdate(): void {\n\n}\n/**\n * 当选中拥有者时的函数\n * @param isSingleSelect 是否单选\n */\nfunction onSelectedOwner(isSingleSelect: boolean): void {\n\n}\n/**\n * 当取消选中拥有者时的函数\n */\nfunction onCancelSelectedOwner(): void {\n\n}\n/**\n * 当拥有者的一般属性变更时（包含公共模块的属性变更）\n * @param attrName 拥有者的属性名称\n */\nfunction onOwnerAttributeChange(attrName: string): void {\n\n}\n/**\n * 当拥有者的模块顺序发生改变时\n * @param fromIndex 模块原位置\n * @param toIndex 模块新位置\n */\nfunction onChangeModulePostion(fromIndex: number, toIndex: number): void {\n\n} ",
+    "editorPreviewJS": "function init() {\n    owner.avatar.clearMaterials();\n    owner.avatar.installMaterialData(soModule.materialData);\n}\nfunction onRemoved() {\n    owner.avatar.clearMaterials();\n}\nfunction onChange(attrName) {\n    owner.avatar.clearMaterials();\n    owner.avatar.installMaterialData(soModule.materialData);\n}\nfunction onUpdate() {\n}\nfunction onSelectedOwner(isSingleSelect) {\n}\nfunction onCancelSelectedOwner() {\n}\nfunction onOwnerAttributeChange(attrName) {\n}\nfunction onChangeModulePostion(fromIndex, toIndex) {\n}\n"
+}

@@ -1,0 +1,84 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "53042540012_0.30724092644430523",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "界面背景",
+                "x": 740,
+                "y": 299,
+                "width": 120,
+                "height": 78,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/exchange.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": false,
+                "pivotType": 0
+            },
+            {
+                "id": "155854291756_0.9438425828983774",
+                "condition": [],
+                "type": "UIString",
+                "name": "文本",
+                "x": 426,
+                "y": 340,
+                "width": 727,
+                "height": 192,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "结算阶段",
+                "fontSize": 80,
+                "color": "#ffffff",
+                "bold": true,
+                "italic": true,
+                "smooth": true,
+                "align": 1,
+                "valign": 1,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": true,
+                "shadowColor": "#000000",
+                "shadowDx": 3,
+                "shadowDy": 3,
+                "stroke": 0,
+                "strokeColor": "#333333"
+            }
+        ]
+    },
+    "id": 1035,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

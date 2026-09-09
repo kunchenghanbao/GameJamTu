@@ -1,0 +1,158 @@
+{
+    "preloadMapAsset": true,
+    "preloadSceneObjectAsset": true,
+    "preloadSceneCommandAsset": true,
+    "dataLayers": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sceneObjects": [],
+    "customCommandPages": [],
+    "preLoadAssets": [],
+    "serverInstanceClassName": "ServerScene",
+    "clientInstanceClassName": "ProjectClientScene",
+    "id": 12,
+    "name": "战斗画面_城镇S1",
+    "width": 1584,
+    "height": 864,
+    "LayerDatas": [
+        {
+            "dx": 225,
+            "dy": 182,
+            "scaleX": 0.14322916666666666,
+            "scaleY": 0.1787037037037037,
+            "skewX": 0,
+            "skewY": 0,
+            "rotation": 0,
+            "xMove": 0,
+            "yMove": 0,
+            "prospectsPerX": 1,
+            "prospectsPerY": 1,
+            "xLoop": false,
+            "yLoop": false,
+            "opacity": 1,
+            "blendMode": null,
+            "drawMode": false,
+            "tileData": [],
+            "autoTileDataCache": [],
+            "img": "asset/image/scene/far/Sky.png",
+            "modeType": true,
+            "modeLock": false,
+            "showOnEditor": true,
+            "materialData": [
+                {
+                    "materials": [
+                        {
+                            "id": 18,
+                            "xSpeed": 2,
+                            "ySpeed": 0,
+                            "enable": true,
+                            "____timeInfo": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dx": 775,
+            "dy": 182,
+            "scaleX": 0.14322916666666666,
+            "scaleY": 0.1787037037037037,
+            "skewX": 0,
+            "skewY": 0,
+            "rotation": 0,
+            "xMove": 0,
+            "yMove": 0,
+            "prospectsPerX": 1,
+            "prospectsPerY": 1,
+            "xLoop": false,
+            "yLoop": false,
+            "opacity": 1,
+            "blendMode": null,
+            "drawMode": false,
+            "tileData": [],
+            "autoTileDataCache": [],
+            "img": "asset/image/scene/far/Sky.png",
+            "modeType": false,
+            "modeLock": false,
+            "showOnEditor": true,
+            "materialData": [
+                {
+                    "materials": [
+                        {
+                            "id": 18,
+                            "xSpeed": 2,
+                            "ySpeed": 0,
+                            "enable": true,
+                            "____timeInfo": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dx": 225,
+            "dy": 182,
+            "scaleX": 0.6875,
+            "scaleY": 0.4666666666666667,
+            "skewX": 0,
+            "skewY": 0,
+            "rotation": 0,
+            "xMove": 0,
+            "yMove": 0,
+            "prospectsPerX": 1,
+            "prospectsPerY": 1,
+            "xLoop": false,
+            "yLoop": false,
+            "opacity": 1,
+            "blendMode": null,
+            "drawMode": false,
+            "tileData": [],
+            "autoTileDataCache": [],
+            "img": "asset/image/picture/battleBackground/Market1.png",
+            "modeType": true,
+            "modeLock": false,
+            "showOnEditor": true,
+            "materialData": [
+                {
+                    "materials": []
+                }
+            ]
+        },
+        {
+            "p": true,
+            "showOnEditor": true
+        },
+        {
+            "dx": 208,
+            "dy": 168,
+            "scaleX": 1,
+            "scaleY": 1,
+            "skewX": 0,
+            "skewY": 0,
+            "rotation": 0,
+            "xMove": 0,
+            "yMove": 0,
+            "prospectsPerX": 1,
+            "prospectsPerY": 1,
+            "xLoop": false,
+            "yLoop": false,
+            "opacity": 1,
+            "blendMode": null,
+            "drawMode": false,
+            "tileData": [],
+            "autoTileDataCache": [],
+            "img": "asset/image/picture/battleBackground/sceneBoard.png",
+            "modeType": true,
+            "modeLock": false,
+            "showOnEditor": true,
+            "materialData": [
+                {
+                    "materials": []
+                }
+            ]
+        }
+    ]
+}

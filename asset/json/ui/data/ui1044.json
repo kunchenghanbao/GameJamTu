@@ -1,0 +1,131 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "57971157566_0.7336158657661855",
+                "condition": [],
+                "type": "UIRoot",
+                "name": "容器",
+                "x": 0,
+                "y": -70,
+                "width": 100,
+                "height": 100,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "enabledLimitView": false,
+                "scrollShowType": 2,
+                "hScrollBar": "asset/image/picture/control/hscroll_bar.png",
+                "hScrollBg": "asset/image/picture/control/hscroll_bg.png",
+                "vScrollBar": "asset/image/picture/control/vscroll_bar.png",
+                "vScrollBg": "asset/image/picture/control/vscroll_bg.png",
+                "scrollWidth": 16,
+                "slowmotionType": 0,
+                "enabledWheel": true,
+                "hScrollValue": 0,
+                "vScrollValue": 0,
+                "children": [
+                    {
+                        "id": "53290554214_0.47517137022679545",
+                        "condition": [],
+                        "type": "UIRoot",
+                        "name": "target",
+                        "x": 0,
+                        "y": 0,
+                        "width": 122,
+                        "height": 25,
+                        "opacity": 1,
+                        "blend": 0,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "enabledLimitView": null,
+                        "scrollShowType": 2,
+                        "hScrollBar": "asset/image/picture/control/hscroll_bar.png",
+                        "hScrollBg": "asset/image/picture/control/hscroll_bg.png",
+                        "vScrollBar": "asset/image/picture/control/vscroll_bar.png",
+                        "vScrollBg": "asset/image/picture/control/vscroll_bg.png",
+                        "scrollWidth": 16,
+                        "slowmotionType": 0,
+                        "enabledWheel": true,
+                        "hScrollValue": 0,
+                        "vScrollValue": 0,
+                        "children": [
+                            {
+                                "id": "53290504498_0.7814777744829271",
+                                "condition": [],
+                                "type": "UIString",
+                                "name": "damage",
+                                "x": -60,
+                                "y": 0,
+                                "width": 120,
+                                "height": 26,
+                                "opacity": 1,
+                                "blend": 0,
+                                "rotation": 0,
+                                "show": true,
+                                "mouseEventEnabledData": false,
+                                "materialData": [
+                                    {
+                                        "materials": []
+                                    }
+                                ],
+                                "mouseEventEnabledInEditor": true,
+                                "lock": true,
+                                "showOnEditor": true,
+                                "hasCommand": [],
+                                "isOpen": true,
+                                "text": "-9995",
+                                "fontSize": 24,
+                                "color": "#ffffff",
+                                "bold": true,
+                                "italic": false,
+                                "smooth": true,
+                                "align": 1,
+                                "valign": 0,
+                                "leading": 0,
+                                "letterSpacing": 0,
+                                "font": "Source_Han_Sans",
+                                "wordWrap": true,
+                                "overflow": 0,
+                                "shadowEnabled": false,
+                                "shadowColor": "#000000",
+                                "shadowDx": 1,
+                                "shadowDy": 1,
+                                "stroke": 2,
+                                "strokeColor": "#474747"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "id": 1044,
+    "avatarMode": true,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

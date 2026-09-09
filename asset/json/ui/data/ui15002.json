@@ -1,0 +1,50 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "44193291997_0.5198500506511805",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "背景图",
+                "x": 1,
+                "y": 1,
+                "width": 238,
+                "height": 124,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/uibitmap.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "44204769565_0.9395477688935912",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "smallPic",
+                "x": 3,
+                "y": 3,
+                "width": 234,
+                "height": 120,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "mouseEventEnabledInEditor": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/plug/blackMonter_bykds.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            }
+        ]
+    },
+    "id": 15002,
+    "instanceClassName": ""
+}

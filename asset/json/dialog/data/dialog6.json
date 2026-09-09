@@ -1,0 +1,197 @@
+{
+    "initData": true,
+    "previewMode": true,
+    "dialogBox": {
+        "x": 614,
+        "y": 630,
+        "width": 380,
+        "height": 162,
+        "alpha": 1,
+        "image": "asset/image/picture/control/cartoonDialog.png",
+        "flip": false,
+        "grid9": "143,95,144,105,0",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 0
+    },
+    "headBox": {
+        "x": 1,
+        "y": 901,
+        "width": 142,
+        "height": 138,
+        "alpha": 1,
+        "locksize": true,
+        "adaptation": true,
+        "previewHeadImg": "",
+        "flip": false,
+        "perviewMode": 0,
+        "previewStandAvatarID": 1,
+        "previewStandAvatarExp": 0,
+        "previewAnimationID": 0,
+        "previewUIID": 0,
+        "viewscaleX": 0.3,
+        "viewscaleY": 0.3,
+        "viewFps": 12,
+        "viewPlayOnce": false,
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 1
+    },
+    "optionBox": {
+        "x": 1011,
+        "y": 630,
+        "width": 300,
+        "height": 72,
+        "alpha": 1,
+        "column": 1,
+        "columnSpaceing": 5,
+        "row": 2,
+        "rowSpaceing": 20,
+        "image1": "asset/image/picture/control/option_normal.png",
+        "grid9img1": "15,70,15,70,0",
+        "image2": "asset/image/picture/control/option_over.png",
+        "grid9img2": "15,70,15,70,0",
+        "image3": "asset/image/picture/control/option_click.png",
+        "grid9img3": "15,70,15,70,0",
+        "overSe": "",
+        "overVolume": 1,
+        "overPitch": 1,
+        "clickSe": "",
+        "clickVolume": 1,
+        "clikcPitch": 1,
+        "selectImageURL": "asset/image/picture/control/option_over.png",
+        "grid9img4": "15,89,15,85,0",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 2
+    },
+    "dialog": {
+        "x": 636,
+        "y": 661,
+        "width": 341,
+        "height": 108,
+        "alpha": 1,
+        "fontSize": 20,
+        "color": "#331f0f",
+        "bold": true,
+        "italic": false,
+        "smooth": true,
+        "align": 0,
+        "leading": 5,
+        "letterSpacing": 0,
+        "font": "Source_Han_Sans",
+        "shadowEnabled": false,
+        "shadowColor": "#000000",
+        "shadowDx": 1,
+        "shadowDy": 1,
+        "stroke": 0,
+        "strokeColor": "#000000",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "wordWrap": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 3,
+        "valign": 0
+    },
+    "option": {
+        "x": 1043,
+        "y": 649,
+        "width": 239,
+        "height": 35,
+        "alpha": 1,
+        "fontSize": 26,
+        "color": "#fffae5",
+        "overColor": "#fffae5",
+        "clickColor": "#fffae5",
+        "bold": true,
+        "italic": false,
+        "smooth": true,
+        "align": 1,
+        "leading": 0,
+        "letterSpacing": 0,
+        "font": "Source_Han_Sans",
+        "valign": 1,
+        "shadowEnabled": false,
+        "shadowColor": "#000000",
+        "shadowDx": 1,
+        "shadowDy": 1,
+        "stroke": 0,
+        "strokeColor": "#000000",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 4
+    },
+    "nameBox": {
+        "x": 143,
+        "y": 901,
+        "width": 123,
+        "height": 28,
+        "alpha": 0,
+        "fontSize": 20,
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "smooth": false,
+        "align": 1,
+        "leading": 0,
+        "letterSpacing": 0,
+        "font": "Source_Han_Sans",
+        "valign": 1,
+        "shadowEnabled": false,
+        "shadowColor": "#000000",
+        "shadowDx": 1,
+        "shadowDy": 1,
+        "stroke": 0,
+        "strokeColor": "#000000",
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "materialData": [
+            {
+                "materials": []
+            }
+        ],
+        "index": 5
+    },
+    "skipBox": {
+        "x": 800,
+        "y": 787,
+        "width": 0,
+        "height": 23,
+        "alpha": 1,
+        "posIndex": 0,
+        "posX": 0,
+        "posY": 0,
+        "animationID": 1008,
+        "scaleNumber": 1,
+        "playType": 2,
+        "delayTime": 0,
+        "showOnEditor": true,
+        "mouseEventEnabledInEditor": true,
+        "index": 6
+    },
+    "id": 6
+}

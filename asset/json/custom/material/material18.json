@@ -1,0 +1,117 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 18,
+    "blockList": [
+        {
+            "name": "未命名块",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "139541669747_0.7891852401333277",
+                        "varName": "xSpeed",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 1,
+                            "compParam": {
+                                "lowerLimit": 0,
+                                "upperLimit": 1000,
+                                "stepValue": 0.1,
+                                "limitInteger": false,
+                                "lockTextLimit": true,
+                                "xDragEnabled": true,
+                                "yDragEnabled": true,
+                                "minLimit": -100,
+                                "maxLimit": 100,
+                                "tickValue": 0.1
+                            }
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "单位：像素",
+                        "alias": "水平滚动速度",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 2,
+                    "x": 19,
+                    "width": 200,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "139542091302_0.9831574780521786",
+                        "varName": "ySpeed",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 1,
+                            "compParam": {
+                                "lowerLimit": 0,
+                                "upperLimit": 1000,
+                                "stepValue": 0.1,
+                                "limitInteger": false,
+                                "lockTextLimit": true,
+                                "xDragEnabled": true,
+                                "yDragEnabled": true,
+                                "minLimit": -100,
+                                "maxLimit": 100,
+                                "tickValue": 0.1
+                            }
+                        },
+                        "defaultValue": "0",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "单位：像素",
+                        "alias": "垂直滚动速度",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 47,
+                    "x": 20,
+                    "width": 200,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 300,
+            "autoOrder": true
+        }
+    ],
+    "shaderSize": true,
+    "shaderTime": true,
+    "customShader": "//======================================================================================================\n// SYSTEM START 该段注释由系统自动生成，请勿删改\n//======================================================================================================\n//------------------------------------------------------------------------------------------------------\n// 固定参数\n//------------------------------------------------------------------------------------------------------\n// varying vec2 v_texcoord; //  原始贴图UV坐标\n// uniform sampler2D texture; // 原始贴图\n// uniform float alpha; // 当前对象实际渲染的透明度\n// uniform float time; // 逐帧递增1.0\n//------------------------------------------------------------------------------------------------------\n// 该材质的自定义参数 判定该变量存在的宏：MU材质编号_变量名称\n//------------------------------------------------------------------------------------------------------\n// uniform float mu18_xSpeed; // MU18_xSpeed 水平滚动速度 单位：像素\n// uniform float mu18_ySpeed; // MU18_ySpeed 垂直滚动速度 单位：像素\n// uniform vec2 renderTargetSize; // 渲染对象尺寸信息 x=宽度 y=高度\n//------------------------------------------------------------------------------------------------------\n// shader 代码规则：\n// 1.由于多材质合并shader代码运行，函数名必须以mf${材质ID}_开头以避免函数名称冲突，如 mf18_myFunc\n// 2.入口函数vec4 mf${材质ID}_main 如 vec4 mf18_main(){return gl_FragColor;}\n// 3.原图采样坐标获取：vec2 texCoord = getInRangeTextureCoord(v_texcoord);\n// 4.原图采样：vec4 color = getTextureColor(texCoord);\n// 5.关于自定义贴图的坐标信息：自定义贴图可能是图集中的一部分，提供了相关信息（mu材质编号_变量名_UVInfo）\n//   相对于0~1的坐标系提供了图集的映射信息 vec4 [UV宽度缩放比例, UV高度缩放比例, UV水平偏移量, UV垂直偏移量]\n// 6.变量宏（可用于判定该变量是否满足出现条件）：#ifdef MU材质编号_变量名称、#else、#endif\n// 7.系统宏 IN_GC_EDITOR=是否在编辑器中运行\n// 8.语法：C语言 更多资料请参考GLSL Shader\n//======================================================================================================\n// SYSTEM END\n//======================================================================================================\nvec4 mf18_main() {\n   // 单个像素的比例（0~1空间）\n   vec2 unitPxPer = 1.0/renderTargetSize;\n   // 单个外边缘的0~1空间比例1\n   vec2 oneEdgePer = 4.0*unitPxPer;\n   // 限制在的内容区域范围内（0~1空间）\n   vec2 limitRange = 1.0-oneEdgePer*2.0;\n   // 内容区右边界\n   float C_R = limitRange.x + oneEdgePer.x;\n   // 内容区域下边界\n   float C_B = limitRange.y + oneEdgePer.y;\n   // 转化到范围内坐标 fract\n   vec2 v_texcoord2 = (v_texcoord);\n   // 水平内容限制显示区域\n   if(v_texcoord2.x<oneEdgePer.x || v_texcoord2.x>C_R){\n       return gl_FragColor;\n   }\n   // 垂直内容限制显示区域\n   if(v_texcoord2.y<oneEdgePer.y || v_texcoord2.y>C_B){\n       return gl_FragColor;\n   }\n   // 像素根据时间和速度进行偏移\n   float offsetX = floor(time*mu18_xSpeed) * unitPxPer.x;\n   float offsetY = floor(time*mu18_ySpeed) * unitPxPer.y;\n   v_texcoord2.x += offsetX;\n   v_texcoord2.y += offsetY;\n   // 限制从内容区域内获取像素而非空白的边缘\n   if(v_texcoord2.x > C_R){\n      v_texcoord2.x = mod(v_texcoord2.x - C_R,limitRange.x)+oneEdgePer.x;\n   }\n   else if(v_texcoord2.x<oneEdgePer.x){\n      v_texcoord2.x = mod(v_texcoord2.x - oneEdgePer.x,limitRange.x)+oneEdgePer.x;\n   }\n   if(v_texcoord2.y > C_B){\n      v_texcoord2.y = mod(v_texcoord2.y - C_B,limitRange.y)+oneEdgePer.y;\n   }\n   else if(v_texcoord2.y<oneEdgePer.y){\n      v_texcoord2.y = mod(v_texcoord2.y - oneEdgePer.y,limitRange.y)+oneEdgePer.y;\n   }\n   // 从拼合图中获取的该图像的坐标空间\n   vec2 texCoord = getInRangeTextureCoord(v_texcoord2);\n   vec4 color = getTextureColor(texCoord);\n   return color;\n}"
+}

@@ -1,0 +1,140 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/icon/equipment/Staff_3.png",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "魔法师使用的法术武器。装备后：攻击+30、魔力+20、魔法暴击+10。",
+            "copy": false
+        },
+        "sell": {
+            "varType": 0,
+            "value": 300,
+            "copy": false
+        },
+        "partID": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "sellEnabled": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "type": {
+            "varType": 0,
+            "value": 2,
+            "copy": false
+        },
+        "wearEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "takeOffEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "maxHP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "maxSP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "atk": {
+            "varType": 0,
+            "value": 30,
+            "copy": false
+        },
+        "def": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "mag": {
+            "varType": 0,
+            "value": 20,
+            "copy": false
+        },
+        "magDef": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "hit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "agi": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "crit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "magCrit": {
+            "varType": 0,
+            "value": 10,
+            "copy": false
+        },
+        "selfStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "selfImmuneStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetSelfAddStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "infoLegend": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "quality": {
+            "varType": 0,
+            "value": 4,
+            "copy": false
+        },
+        "passiveStatus": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "eventSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "moveGrid": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        }
+    },
+    "id": 7
+}

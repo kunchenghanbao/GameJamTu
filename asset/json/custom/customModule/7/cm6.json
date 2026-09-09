@@ -1,0 +1,197 @@
+{
+    "attrs": {
+        "lvUpAutoGetSkills": {
+            "varType": 9,
+            "value": [
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 3014,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 2,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 19,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 4,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 21,
+                        "copy": false
+                    }
+                },
+                {
+                    "lv": {
+                        "varType": 0,
+                        "value": 6,
+                        "copy": false
+                    },
+                    "skill": {
+                        "varType": 0,
+                        "value": 40,
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        },
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/control/icon_occupation_1.png",
+            "copy": false
+        },
+        "levelUpEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "equipSetting": {
+            "varType": 6,
+            "value": [
+                1,
+                5,
+                6,
+                7,
+                8,
+                10,
+                11
+            ],
+            "copy": false
+        },
+        "MaxHPGrow": {
+            "varType": 1,
+            "value": "[[0,0,13.333333333333334,99,1200,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MaxSPGrow": {
+            "varType": 1,
+            "value": "[[0,0,13.333333333333334,99,600,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MAGGrow": {
+            "varType": 1,
+            "value": "[[0,0,0,99,0,0,0,0],[0,100,0]]",
+            "copy": false
+        },
+        "needEXPGrow": {
+            "varType": 1,
+            "value": "[[0,0,1.6007532956685537,99,5000,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "成长设定": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "ATKGrow": {
+            "varType": 1,
+            "value": "[[0,0,4.5,99,400,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "DEFGrow": {
+            "varType": 1,
+            "value": "[[0,0,4,99,200,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "DODGrow": {
+            "varType": 1,
+            "value": "[[0,0,10.536398467432917,99,20,0,0,0],[0,100,100]]",
+            "copy": false
+        },
+        "MAGDEFGrow": {
+            "varType": 1,
+            "value": "[[0,0,0,99,100,0,0,0],[0,100,0]]",
+            "copy": false
+        },
+        "passiveStatus": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "specialAbility": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "isCustomAttribute": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "selfStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "selfImmuneStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetSelfAddStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "specialBattleEffect": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        },
+        "customAttributes": {
+            "varType": 9,
+            "value": [
+                {
+                    "attribute": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "value": {
+                        "varType": 1,
+                        "value": "[[0,0,82.95019157088124,99,100,0,0,0],[0,100,100]]",
+                        "copy": false
+                    }
+                },
+                {
+                    "attribute": {
+                        "varType": 0,
+                        "value": 2,
+                        "copy": false
+                    },
+                    "value": {
+                        "varType": 1,
+                        "value": "1",
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        }
+    },
+    "id": 6
+}

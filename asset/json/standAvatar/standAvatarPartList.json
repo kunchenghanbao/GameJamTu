@@ -1,0 +1,19 @@
+{
+    "list": [
+        null,
+        "脸部表情"
+    ],
+    "typeTreeNode": {
+        "isDirectory": true,
+        "children": [
+            {
+                "id": 1,
+                "name": "脸部表情",
+                "children": []
+            }
+        ],
+        "isOpen": true,
+        "name": "目录"
+    },
+    "dataShowMode": 1
+}

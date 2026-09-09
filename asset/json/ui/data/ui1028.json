@@ -1,0 +1,84 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "52832866390_0.8899042320309878",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "icon",
+                "x": 0,
+                "y": 0,
+                "width": 38,
+                "height": 38,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/icon/state/Crit.png",
+                "grid9": "0,0,0,0,0",
+                "flip": null,
+                "isTile": false,
+                "pivotType": 0
+            },
+            {
+                "id": "53452728880_0.7190963259128353",
+                "condition": [],
+                "type": "UIString",
+                "name": "tipsLabel",
+                "x": 42,
+                "y": 7,
+                "width": 516,
+                "height": 20,
+                "opacity": 1,
+                "blend": 0,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "状态说明描述",
+                "fontSize": 20,
+                "color": "#fffae5",
+                "bold": true,
+                "italic": false,
+                "smooth": true,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": false,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000"
+            }
+        ]
+    },
+    "id": 1028,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

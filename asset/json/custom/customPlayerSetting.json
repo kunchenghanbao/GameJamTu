@@ -1,0 +1,273 @@
+{
+    "blockList": [
+        {
+            "name": "玩家属性",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "43472888485_0.8106072766546661",
+                        "varName": "未命名变量",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 33,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "玩家初始携带",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable": true,
+                        "enumEnable_get": false,
+                        "enumEnable_set": false
+                    },
+                    "attrConditions": [],
+                    "y": 10,
+                    "x": 15,
+                    "width": 1015,
+                    "height": 335
+                },
+                {
+                    "attr": {
+                        "id": "42007684431_0.6822505733666104",
+                        "varName": "package",
+                        "varType": 3,
+                        "compData": {
+                            "compType": 1003,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": true,
+                        "moduleID": 1,
+                        "dataStructureID": 2,
+                        "arrayMode": true,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "更改此项会影响游戏初始时玩家拥有的道具",
+                        "alias": "背包",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable": false,
+                        "enumEnable_get": false,
+                        "enumEnable_set": false
+                    },
+                    "attrConditions": [],
+                    "y": 60,
+                    "x": 25,
+                    "width": 500,
+                    "height": 278
+                },
+                {
+                    "attr": {
+                        "id": "42608707062_0.6402298747689728",
+                        "varName": "gold",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 0,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "更改此项会影响游戏初始时玩家拥有的金币",
+                        "alias": "金币",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 60,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 25,
+                    "x": 25,
+                    "width": 156,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "134889535737_0.9564071578900957",
+                        "varName": "party",
+                        "varType": 3,
+                        "compData": {
+                            "compType": 1003,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": true,
+                        "moduleID": 1,
+                        "dataStructureID": 1005,
+                        "arrayMode": true,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "玩家拥有的角色集合。更改此项会影响游戏初始时玩家拥有的角色",
+                        "alias": "队伍",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 60,
+                    "x": 535,
+                    "width": 485,
+                    "height": 283
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 360,
+            "autoOrder": true,
+            "hideBlockTitle": false
+        },
+        {
+            "name": "隐藏属性",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "184709921265_0.9828288000617522",
+                        "varName": "actorRecords",
+                        "varType": 3,
+                        "compData": {
+                            "compType": 0,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": true,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 6,
+                        "dataStructureID": 1005,
+                        "arrayMode": true,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 391,
+                    "x": 31,
+                    "width": 200,
+                    "height": 120
+                }
+            ],
+            "blockCondition": [
+                {
+                    "attrID": null,
+                    "value": null,
+                    "isExpression": true,
+                    "jsCode": "false;\n",
+                    "tsCode": "false",
+                    "codeName": "隐藏"
+                }
+            ],
+            "blockHeight": 300,
+            "autoOrder": true,
+            "hideBlockTitle": true
+        },
+        {
+            "name": "我的怪物图鉴",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "44197482890_0.44406033695063085",
+                        "varName": "monsterManual_byKDS",
+                        "varType": 4,
+                        "compData": {
+                            "compType": 1004,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": true,
+                        "moduleID": 21,
+                        "dataStructureID": 2,
+                        "arrayMode": true,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "更改此项会影响游戏初始时玩家拥有的道具",
+                        "alias": "怪物图鉴",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100
+                    },
+                    "attrConditions": [],
+                    "y": 20,
+                    "x": 23,
+                    "width": 377,
+                    "height": 278
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 314,
+            "autoOrder": true
+        }
+    ],
+    "compAutoOrderLimitHeight": 0
+}

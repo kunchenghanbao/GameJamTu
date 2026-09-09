@@ -1,0 +1,26 @@
+{
+    "preloadMapAsset": true,
+    "preloadSceneObjectAsset": true,
+    "preloadSceneCommandAsset": true,
+    "dataLayers": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "sceneObjects": [],
+    "customCommandPages": [],
+    "preLoadAssets": [],
+    "serverInstanceClassName": "ServerScene",
+    "clientInstanceClassName": "ProjectClientScene",
+    "id": 4,
+    "name": "战斗画面",
+    "width": 1584,
+    "height": 912,
+    "LayerDatas": [
+        {
+            "p": true,
+            "showOnEditor": true
+        }
+    ]
+}

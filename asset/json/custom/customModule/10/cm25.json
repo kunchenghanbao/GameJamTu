@@ -1,0 +1,465 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "totalDuration": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "overtime": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "statusHit": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "cantMove": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "cantAtk": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "cantUseSkill": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "cantUseItem": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "removeWhenInjured": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "maxlayer": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "removePer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "animation": {
+            "varType": 0,
+            "value": 9013,
+            "copy": false
+        },
+        "turnInterval": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "damageType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "damageValue": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "additionMultiple": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "useAddition": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "additionMultipleType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "whenOvertimeEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "fixedHeteValue": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "damageHatePer": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "elementType": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "maxHP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "maxSP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "atk": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "def": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "mag": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "magDef": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "hit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "moveGrid": {
+            "varType": 0,
+            "value": 3,
+            "copy": false
+        },
+        "crit": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "magCrit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "maxHPPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "maxSPPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "atkPer": {
+            "varType": 0,
+            "value": 200,
+            "copy": false
+        },
+        "defPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "magPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "magDefPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "hitPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "moveGridPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "critPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "magCritPer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "specialAbility": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "eventSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "whenAddEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "whenRemoveEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "specialBattleEffect": {
+            "varType": 9,
+            "value": [
+                {
+                    "type": {
+                        "varType": 0,
+                        "value": 7,
+                        "copy": false
+                    },
+                    "counterattackCondition1": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "counterattackClass": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "counterattackCondition2": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "counterattackPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "counterattackDmagePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "returnCondition": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "returnPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "returnDamagePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "suckCondition": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "attackTimesPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "damagePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "resurrectionPer": {
+                        "varType": 0,
+                        "value": 50,
+                        "copy": false
+                    },
+                    "healthPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "suckPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "strikePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "elementType": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "effectiveness": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "banBack": {
+                        "varType": 2,
+                        "value": true,
+                        "copy": false
+                    }
+                },
+                {
+                    "type": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "counterattackCondition1": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "counterattackClass": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "counterattackCondition2": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "counterattackPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "counterattackDmagePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "returnCondition": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "returnPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "returnDamagePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "suckCondition": {
+                        "varType": 0,
+                        "value": 0,
+                        "copy": false
+                    },
+                    "attackTimesPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "damagePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "resurrectionPer": {
+                        "varType": 0,
+                        "value": 50,
+                        "copy": false
+                    },
+                    "healthPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "suckPer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "strikePer": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "elementType": {
+                        "varType": 0,
+                        "value": 1,
+                        "copy": false
+                    },
+                    "effectiveness": {
+                        "varType": 0,
+                        "value": 100,
+                        "copy": false
+                    },
+                    "banBack": {
+                        "varType": 2,
+                        "value": true,
+                        "copy": false
+                    }
+                }
+            ],
+            "copy": false
+        },
+        "currentLayer": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "fromBattlerID": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "currentDuration": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "描述": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "pLabel": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        }
+    },
+    "id": 25
+}

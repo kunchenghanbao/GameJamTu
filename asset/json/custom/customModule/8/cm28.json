@@ -1,0 +1,500 @@
+{
+  "attrs": {
+    "icon": {
+      "varType": 1,
+      "value": "asset/image/picture/icon/skill/Ice_aoe.png",
+      "copy": false
+    },
+    "intro": {
+      "varType": 1,
+      "value": "[冰]释放冰霜新星，对范围内敌方造成 ${Math.floor(a.MAG*s.additionMultiple*0.01+s.damageValue)} 魔法伤害并施加冰结。",
+      "copy": false
+    },
+    "skillType": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "targetType": {
+      "varType": 0,
+      "value": 6,
+      "copy": false
+    },
+    "effectRange1": {
+      "varType": 0,
+      "value": 4,
+      "copy": false
+    },
+    "effectRange2A": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "effectRange2B": {
+      "varType": 0,
+      "value": 4,
+      "copy": false
+    },
+    "effectRange3": {
+      "varType": 12,
+      "value": {},
+      "copy": false
+    },
+    "releaseRange": {
+      "varType": 12,
+      "value": {
+        "mode": 0,
+        "size": 11,
+        "gridData": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "copy": false
+    },
+    "totalCD": {
+      "varType": 0,
+      "value": 3,
+      "copy": false
+    },
+    "hit": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "costSP": {
+      "varType": 0,
+      "value": 40,
+      "copy": false
+    },
+    "useDamage": {
+      "varType": 2,
+      "value": true,
+      "copy": false
+    },
+    "releaseFrame": {
+      "varType": 0,
+      "value": 2,
+      "copy": false
+    },
+    "releaseActionID": {
+      "varType": 0,
+      "value": 3,
+      "copy": false
+    },
+    "effectRangeType": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "mustOpenSpace": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "costActionPower": {
+      "varType": 2,
+      "value": true,
+      "copy": false
+    },
+    "useHate": {
+      "varType": 2,
+      "value": true,
+      "copy": false
+    },
+    "releaseTimes": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "isThroughObstacle": {
+      "varType": 2,
+      "value": true,
+      "copy": false
+    },
+    "costHP": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "bulletSpeed": {
+      "varType": 0,
+      "value": 500,
+      "copy": false
+    },
+    "bulletAnimation": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "damageType": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "damageValue": {
+      "varType": 0,
+      "value": 30,
+      "copy": false
+    },
+    "additionMultiple": {
+      "varType": 0,
+      "value": 90,
+      "copy": false
+    },
+    "useAddition": {
+      "varType": 2,
+      "value": true,
+      "copy": false
+    },
+    "additionMultipleType": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "elementType": {
+      "varType": 0,
+      "value": 2,
+      "copy": false
+    },
+    "fixedHeteValue": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "damageHatePer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "releaseAnimation": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "hitAnimation": {
+      "varType": 0,
+      "value": 24,
+      "copy": false
+    },
+    "targetGridAnimation": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "targetGridAniLayer": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "passiveAttribute": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "passiveStatus": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "specialAbility": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "statusSetting": {
+      "varType": 2,
+      "value": true,
+      "copy": false
+    },
+    "eventSetting": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "addStatus": {
+      "varType": 6,
+      "value": [
+        4
+      ],
+      "copy": false
+    },
+    "removeStatus": {
+      "varType": 6,
+      "value": [],
+      "copy": false
+    },
+    "useEvent": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "hitEvent": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "hitOpenSpaceEvent": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "releaseEvent": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "maxHP": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "maxSP": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "atk": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "def": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "mag": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "magDef": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "hit1": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "moveGrid": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "agi": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "crit": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "magCrit": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "selfStatus": {
+      "varType": 6,
+      "value": [],
+      "copy": false
+    },
+    "selfImmuneStatus": {
+      "varType": 6,
+      "value": [],
+      "copy": false
+    },
+    "hitTargetStatus": {
+      "varType": 6,
+      "value": [],
+      "copy": false
+    },
+    "hitTargetSelfAddStatus": {
+      "varType": 6,
+      "value": [],
+      "copy": false
+    },
+    "specialBattleEffect": {
+      "varType": 9,
+      "value": [],
+      "copy": false
+    },
+    "currentCD": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "infoLegend": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "pLabel": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "label1": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "keepHurtAction": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "waitReleaseAnimationOver": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    }
+  },
+  "id": 28
+}

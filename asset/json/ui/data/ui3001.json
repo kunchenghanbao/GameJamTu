@@ -1,0 +1,179 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "51696286771_0.6058864503409911",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "图片",
+                "x": 650,
+                "y": 356,
+                "width": 300,
+                "height": 152,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/uibitmap.png",
+                "grid9": "25,25,25,25,0",
+                "pivotType": 0
+            },
+            {
+                "id": "51696291141_0.22343351146858081",
+                "condition": [],
+                "type": "UIString",
+                "name": "文本",
+                "x": 680,
+                "y": 378,
+                "width": 240,
+                "height": 40,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "text": "我的自定义界面",
+                "fontSize": 34,
+                "color": "#ffffff",
+                "bold": true,
+                "italic": false,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000"
+            },
+            {
+                "id": "51696322440_0.5974341707489947",
+                "condition": [],
+                "type": "UIButton",
+                "name": "按钮",
+                "x": 750,
+                "y": 493,
+                "width": 100,
+                "height": 50,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [
+                    true
+                ],
+                "isOpen": true,
+                "label": "关闭",
+                "image1": "asset/image/picture/control/btn_normal.png",
+                "grid9img1": "10,10,10,10,0",
+                "image2": "asset/image/picture/control/btn_over.png",
+                "grid9img2": "10,10,10,10,0",
+                "image3": "asset/image/picture/control/btn_over.png",
+                "grid9img3": "10,10,10,10,0",
+                "fontSize": 24,
+                "color": "#ffffff",
+                "overColor": "#ffffff",
+                "clickColor": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "align": 1,
+                "valign": 1,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "textDx": 0,
+                "textDy": 0,
+                "textStroke": 0,
+                "textStrokeColor": "#000000"
+            },
+            {
+                "id": "74591100433_0.8247409231234608",
+                "condition": [],
+                "type": "UICustomGameNumber",
+                "name": "游戏数值",
+                "x": 785,
+                "y": 431,
+                "width": 32,
+                "height": 54,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": false,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "customData": [
+                    9,
+                    {
+                        "normalNumber": 0
+                    },
+                    [
+                        {
+                            "74590588497_0.9709796648239422": 0
+                        }
+                    ]
+                ],
+                "previewNum": 2,
+                "previewFixed": 0,
+                "fontSize": 50,
+                "color": "#ffffff",
+                "bold": false,
+                "italic": false,
+                "smooth": null,
+                "align": 0,
+                "valign": 0,
+                "leading": 0,
+                "letterSpacing": 0,
+                "font": "Source_Han_Sans",
+                "wordWrap": true,
+                "overflow": 0,
+                "shadowEnabled": null,
+                "shadowColor": "#000000",
+                "shadowDx": 1,
+                "shadowDy": 1,
+                "stroke": 0,
+                "strokeColor": "#000000"
+            }
+        ]
+    },
+    "id": 3001,
+    "hasRootCommand": [],
+    "instanceClassName": ""
+}

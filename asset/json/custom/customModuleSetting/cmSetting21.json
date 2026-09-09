@@ -1,0 +1,165 @@
+{
+    "id": 21,
+    "blockList": [
+        {
+            "name": "未命名块",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "44192105605_0.6823364306013286",
+                        "varName": "icon",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 22,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "图标",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100
+                    },
+                    "attrConditions": [],
+                    "y": 28,
+                    "x": 9,
+                    "width": 160,
+                    "height": 120
+                },
+                {
+                    "attr": {
+                        "id": "44192201948_0.18551607229903788",
+                        "varName": "描述",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 33,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100
+                    },
+                    "attrConditions": [],
+                    "y": 11,
+                    "x": 179,
+                    "width": 615,
+                    "height": 150
+                },
+                {
+                    "attr": {
+                        "id": "44192201948_0.12416417808182167",
+                        "varName": "intro",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 11,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 0
+                    },
+                    "attrConditions": [],
+                    "y": 31,
+                    "x": 189,
+                    "width": 600,
+                    "height": 125
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 186,
+            "autoOrder": true,
+            "hideBlockTitle": true
+        },
+        {
+            "name": "图片",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "44192424415_0.5044593116291598",
+                        "varName": "showPic",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 22,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "怪物图鉴-图片",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100
+                    },
+                    "attrConditions": [],
+                    "y": 18,
+                    "x": 12,
+                    "width": 500,
+                    "height": 470
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 503,
+            "autoOrder": true,
+            "hideBlockTitle": false
+        }
+    ],
+    "name": "怪物图鉴",
+    "varName": "怪物图鉴"
+}

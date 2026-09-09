@@ -1,0 +1,804 @@
+{
+    "compAutoOrderLimitHeight": 0,
+    "id": 9001,
+    "blockList": [
+        {
+            "name": "开始战斗",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "52828590606_0.6131220600210519",
+                        "varName": "isPlayerDecisionBattler",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "根据战斗场景中预设的出场地由玩家自由分配角色上场\\n如果未勾选该选项或没有足够的出场地则会跳过角色出场阶段",
+                        "alias": "由玩家安排角色上场",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 10,
+                    "x": 15,
+                    "width": 140,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "53002821268_0.15998255027997677",
+                        "varName": "defaultOri",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "上,下,左,右",
+                                "showIndex": true
+                            }
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "角色默认朝向",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "52828590606_0.6131220600210519",
+                            "value": true,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 10,
+                    "x": 176,
+                    "width": 200,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "52831894612_0.7518826373351752",
+                        "varName": "battleResultSwitch",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 7,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "将胜利的结果储存至",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 50,
+                    "x": 15,
+                    "width": 360,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "53037918607_0.13069218743192246",
+                        "varName": "advancedSettings",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "高级设定",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 85,
+                    "x": 15,
+                    "width": 84,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "53737057124_0.3930740700011175",
+                        "varName": "isAddEvents",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "插入额外的事件",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 85,
+                    "x": 120,
+                    "width": 128,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "156280322609_0.6344040571235436",
+                        "varName": "preloadAssets",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "1",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "加载当前战斗者的技能动画、战斗画面等资源",
+                        "alias": "预载入资源",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 85,
+                    "x": 259,
+                    "width": 117,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "156292002015_0.2645107761662093",
+                        "varName": "isShowLoadingUI",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "可以指定一个加载界面进行绑定以便显示加载中的效果",
+                        "alias": "显示加载界面",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "156280322609_0.6344040571235436",
+                            "value": true,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 85,
+                    "x": 367,
+                    "width": 200,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [],
+            "blockHeight": 125,
+            "autoOrder": true,
+            "hideBlockTitle": true,
+            "cmdColor": "#ff5959",
+            "cmdIcon": "asset/image/command/eP_icon_Combat_red.png"
+        },
+        {
+            "name": "loadingUI",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "156292050939_0.829461216262414",
+                        "varName": "bindingUI",
+                        "varType": 5,
+                        "compData": {
+                            "compType": 46,
+                            "compParam": {
+                                "typeMode": 1
+                            }
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "选择一个用于显示预加载进度的组件并确定赋值的属性名称，进度范围0-100（如滑块组件的值-value）",
+                        "alias": "加载组件",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 10,
+                    "x": 15,
+                    "width": 550,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [
+                {
+                    "attrID": "156280322609_0.6344040571235436",
+                    "value": true,
+                    "isExpression": false,
+                    "jsCode": null,
+                    "tsCode": null,
+                    "codeName": null
+                },
+                {
+                    "attrID": "156292002015_0.2645107761662093",
+                    "value": true,
+                    "isExpression": false,
+                    "jsCode": null,
+                    "tsCode": null,
+                    "codeName": null
+                }
+            ],
+            "blockHeight": 55,
+            "autoOrder": true,
+            "hideBlockTitle": true
+        },
+        {
+            "name": "高级设定",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "53037971599_0.6409021098265941",
+                        "varName": "firstActionCamp",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "我方先行动,敌方先行动,先行动方随机决定",
+                                "showIndex": false
+                            }
+                        },
+                        "defaultValue": "2",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "先行方设定",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 150,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 14,
+                    "x": 15,
+                    "width": 450,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "53383920765_0.6387367430948587",
+                        "varName": "battleFailHandleType",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "游戏结束,继续执行后续事件",
+                                "showIndex": true
+                            }
+                        },
+                        "defaultValue": "0",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "战斗失败时处理",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 150,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 55,
+                    "x": 15,
+                    "width": 450,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "53383920765_0.7870395817679798",
+                        "varName": "winClearBattlefieldType",
+                        "varType": 0,
+                        "compData": {
+                            "compType": 2,
+                            "compParam": {
+                                "items": "清理全部战斗者,仅清理我方阵营战斗者,不清理",
+                                "showIndex": false
+                            }
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "清理会销毁对象，再次进入该场景时对象开关等状态会被重置",
+                        "alias": "胜利后清理战场的方式",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 150,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 95,
+                    "x": 15,
+                    "width": 360,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "53384009966_0.633011615576826",
+                        "varName": "addFailConditions",
+                        "varType": 4,
+                        "compData": {
+                            "compType": 1004,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": true,
+                        "moduleID": 6,
+                        "dataStructureID": 1,
+                        "arrayMode": true,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "追加失败的条件：当以下任意我方角色死亡时",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 32,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 135,
+                    "x": 15,
+                    "width": 373,
+                    "height": 241
+                },
+                {
+                    "attr": {
+                        "id": "53678144571_0.25005231574415876",
+                        "varName": "keepDeadBattler",
+                        "varType": 2,
+                        "compData": {
+                            "compType": 15,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "保留阵亡者",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": true,
+                        "titleWidth": 100,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": null,
+                            "value": null,
+                            "isExpression": true,
+                            "jsCode": "attrs.winClearBattlefieldType != 2;\n",
+                            "tsCode": "// 根据属性名称值编写条件表达式（目前支持选择框和复选框），如： (attrs.xxx>5 && attrs.yyy<=10) || attrs.zzz==6;\r\nattrs.winClearBattlefieldType!=2;",
+                            "codeName": "清理战斗者的情况"
+                        }
+                    ],
+                    "y": 95,
+                    "x": 383,
+                    "width": 117,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [
+                {
+                    "attrID": "53037918607_0.13069218743192246",
+                    "value": true,
+                    "isExpression": false,
+                    "jsCode": null,
+                    "tsCode": null,
+                    "codeName": null
+                }
+            ],
+            "blockHeight": 390,
+            "autoOrder": true,
+            "hideBlockTitle": false
+        },
+        {
+            "name": "追加事件",
+            "blockAttrs": [
+                {
+                    "attr": {
+                        "id": "53737190238_0.6807886972886374",
+                        "varName": "battleStage1_newTurn",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 35,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "战斗阶段：新的回合",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 200,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 10,
+                    "x": 15,
+                    "width": 450,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "56250715737_0.26728640391917646",
+                        "varName": "battleStage2_beforeWin",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 35,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "战斗阶段：胜利前",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 200,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [],
+                    "y": 50,
+                    "x": 15,
+                    "width": 450,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "56250736593_0.40719960934893695",
+                        "varName": "battleStage3_beforeLose",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 35,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "战斗阶段：失败前",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 200,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "53383920765_0.6387367430948587",
+                            "value": 1,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 90,
+                    "x": 15,
+                    "width": 450,
+                    "height": 32
+                },
+                {
+                    "attr": {
+                        "id": "188295200106_0.8958381381289504",
+                        "varName": "battleStageX_onLoadFile",
+                        "varType": 1,
+                        "compData": {
+                            "compType": 35,
+                            "compParam": {}
+                        },
+                        "defaultValue": "",
+                        "hideMode": false,
+                        "useCommand": false,
+                        "onlyPointTo": false,
+                        "moduleID": 1,
+                        "dataStructureID": 1,
+                        "arrayMode": false,
+                        "arrayLength": 100,
+                        "arrayAllowDelete": false,
+                        "arrayAllowSwap": false,
+                        "arrayAllowUpdate": false,
+                        "accessMode": 1,
+                        "syncMode": 0,
+                        "attrTips": "",
+                        "alias": "战斗阶段：读档时",
+                        "onlyConfig": false,
+                        "preview": false,
+                        "autoTitleWidth": false,
+                        "titleWidth": 200,
+                        "eyeShow": true,
+                        "lockBlock": false,
+                        "enumEnable_get": true,
+                        "enumEnable_set": true
+                    },
+                    "attrConditions": [
+                        {
+                            "attrID": "53383920765_0.6387367430948587",
+                            "value": 1,
+                            "isExpression": false,
+                            "jsCode": null,
+                            "tsCode": null,
+                            "codeName": null
+                        }
+                    ],
+                    "y": 130,
+                    "x": 15,
+                    "width": 450,
+                    "height": 32
+                }
+            ],
+            "blockCondition": [
+                {
+                    "attrID": "53737057124_0.3930740700011175",
+                    "value": true,
+                    "isExpression": false,
+                    "jsCode": null,
+                    "tsCode": null,
+                    "codeName": null
+                }
+            ],
+            "blockHeight": 174,
+            "autoOrder": true,
+            "hideBlockTitle": false
+        }
+    ],
+    "isCustomPhraseDesc": true,
+    "customPhraseDescTS": "// 根据属性名称值编写自定义短语描述，如：\"我的短语是\"+attrs.xxx\n// 使用下拉框组件的变量attrs.xxx有对应的attrs.xxxItems的属性以便获得标签名集合\n// 获取自定义模块的数据名称的函数：getModuleDataName(moduleID:number,dataID:number):string;\n// 获取各种列表内数据名称的函数：getTypeDataListName(typeID: number, dataID: number):string;\n// -- typeID ：0-全局变量 1-全局开关 2-全局字符串 3-玩家变量 4-玩家开关 5-玩家字符串\n//           ：6-场景列表 7-场景对象模型列表 8-图块列表 9-行走图列表 10-行走图动作列表 11-立绘列表 12-立绘表情列表\n//           ：13-公共事件 14-对话框列表 15-动画列表 16-动画信号列表 17-界面列表 18-数据结构列表 19-自定义模块列表\n//           ：20-自定义命令列表 21-自定义行为列表 22-自动元件列表 23-行走图部件列表 24-立绘部件列表 25-材质列表\nvar str = \"\";\nstr += `胜利结果储存至 [${attrs.battleResultSwitch}-${getTypeDataListName(4, attrs.battleResultSwitch)}]\\n`;\nif (attrs.isPlayerDecisionBattler) {\n    str += \"玩家安排角色上场 \" + attrs.defaultOriItems[attrs.defaultOri] + \"\\n\";\n}\nstr += `` + attrs.firstActionCampItems[attrs.firstActionCamp] + \"\\n\"\nstr += `战败时处理：` + attrs.battleFailHandleTypeItems[attrs.battleFailHandleType] + \"\\n\";\nstr += `结束后清场方式：` + attrs.winClearBattlefieldTypeItems[attrs.winClearBattlefieldType] + `${attrs.keepDeadBattler ? \" 保留阵亡者\" : \"\"}`;\nif (attrs.addFailConditions.length > 0) {\n    str += `\\n追加失败条件（不允许角色死亡）：`;\n    var actorNames = [];\n    for (var i = 0; i < attrs.addFailConditions.length; i++) {\n        var actorID = attrs.addFailConditions[i];\n        var actorName = getModuleDataName(6, actorID);\n        if (actorName) {\n            actorNames.push(actorName);\n        }\n    }\n    str += actorNames.join(\"、\");\n}\nif (attrs.isAddEvents) {\n    str += \"\\n☆存在插入的额外事件\";\n}\nstr;",
+    "customPhraseDescJS": "var str = \"\";\nstr += \"\\u80DC\\u5229\\u7ED3\\u679C\\u50A8\\u5B58\\u81F3 [\" + attrs.battleResultSwitch + \"-\" + getTypeDataListName(4, attrs.battleResultSwitch) + \"]\\n\";\nif (attrs.isPlayerDecisionBattler) {\n    str += \"玩家安排角色上场 \" + attrs.defaultOriItems[attrs.defaultOri] + \"\\n\";\n}\nstr += \"\" + attrs.firstActionCampItems[attrs.firstActionCamp] + \"\\n\";\nstr += \"\\u6218\\u8D25\\u65F6\\u5904\\u7406\\uFF1A\" + attrs.battleFailHandleTypeItems[attrs.battleFailHandleType] + \"\\n\";\nstr += \"\\u7ED3\\u675F\\u540E\\u6E05\\u573A\\u65B9\\u5F0F\\uFF1A\" + attrs.winClearBattlefieldTypeItems[attrs.winClearBattlefieldType] + (\"\" + (attrs.keepDeadBattler ? \" 保留阵亡者\" : \"\"));\nif (attrs.addFailConditions.length > 0) {\n    str += \"\\n\\u8FFD\\u52A0\\u5931\\u8D25\\u6761\\u4EF6\\uFF08\\u4E0D\\u5141\\u8BB8\\u89D2\\u8272\\u6B7B\\u4EA1\\uFF09\\uFF1A\";\n    var actorNames = [];\n    for (var i = 0; i < attrs.addFailConditions.length; i++) {\n        var actorID = attrs.addFailConditions[i];\n        var actorName = getModuleDataName(6, actorID);\n        if (actorName) {\n            actorNames.push(actorName);\n        }\n    }\n    str += actorNames.join(\"、\");\n}\nif (attrs.isAddEvents) {\n    str += \"\\n☆存在插入的额外事件\";\n}\nstr;\n"
+}

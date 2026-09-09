@@ -1,0 +1,17 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/MediaVillage_Feet.png", "copy": false },
+        "intro": { "varType": 1, "value": "【媒体村套系】\n四件效果·媒体联动：命中+20，闪避+15，物理/魔法暴击+10，移动力+1。", "copy": false },
+        "sell": { "varType": 0, "value": 700, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 5, "copy": false },
+        "type": { "varType": 0, "value": 8, "copy": false },
+        "quality": { "varType": 0, "value": 5, "copy": false },
+        "maxHP": { "varType": 0, "value": 40, "copy": false },
+        "def": { "varType": 0, "value": 10, "copy": false },
+        "magDef": { "varType": 0, "value": 10, "copy": false },
+        "dod": { "varType": 0, "value": 10, "copy": false },
+        "moveGrid": { "varType": 0, "value": 0, "copy": false }
+    },
+    "id": 4007
+}

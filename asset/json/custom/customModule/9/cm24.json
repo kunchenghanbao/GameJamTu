@@ -1,0 +1,16 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/Knuckle_4.png", "copy": false },
+        "intro": { "varType": 1, "value": "以轻质合金锻成的战拳，强化打击同时保持出手速度。", "copy": false },
+        "sell": { "varType": 0, "value": 250, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 1, "copy": false },
+        "type": { "varType": 0, "value": 11, "copy": false },
+        "quality": { "varType": 0, "value": 4, "copy": false },
+        "atk": { "varType": 0, "value": 38, "copy": false },
+        "hit": { "varType": 0, "value": 8, "copy": false },
+        "dod": { "varType": 0, "value": 5, "copy": false },
+        "crit": { "varType": 0, "value": 10, "copy": false }
+    },
+    "id": 24
+}

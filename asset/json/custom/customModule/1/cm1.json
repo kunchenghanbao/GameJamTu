@@ -1,0 +1,97 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/icon/item/Letter_1.png",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "道具描述。",
+            "copy": false
+        },
+        "sell": {
+            "varType": 0,
+            "value": 999,
+            "copy": false
+        },
+        "isUse": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "isConsumables": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "se": {
+            "varType": 1,
+            "value": ",1,1",
+            "copy": false,
+            "volume": "1",
+            "pitch": "1"
+        },
+        "callEvent": {
+            "varType": 1,
+            "value": "信件事件\u0005155188085947_0.5895792326560874\u0005[[11,1,null,\"信件\",3,-3,\"<span style='color:#FfFffF'>「欢迎来到GameCreator的世界。」</span>\",null,1,0,null,{\"id\":1,\"atts\":[],\"time\":60,\"transitionMode\":null,\"nonTweenType\":0,\"mode\":0},{\"___cmdID\":\"155188033478_0.9953136189115386\"}],[-1,{\"___cmdID\":\"134900250683_0.08171868330397514\"}]]",
+            "copy": false
+        },
+        "描述": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "未命名变量": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "sellEnabled": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "useType": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "isSingleTarget": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "releaseAnimation": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "recoveryHP": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "recoverySP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "costActionPower": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "addStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "removeStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        }
+    },
+    "id": 1
+}

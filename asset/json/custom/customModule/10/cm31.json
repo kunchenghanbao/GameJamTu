@@ -1,0 +1,270 @@
+{
+  "attrs": {
+    "icon": {
+      "varType": 1,
+      "value": "asset/image/picture/icon/state/Magic_up.png",
+      "copy": false
+    },
+    "intro": {
+      "varType": 1,
+      "value": "魔力提高25%，魔法暴击提高10%。",
+      "copy": false
+    },
+    "totalDuration": {
+      "varType": 0,
+      "value": 3,
+      "copy": false
+    },
+    "overtime": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "statusHit": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "cantAtk": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "cantUseSkill": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "removeWhenInjured": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "maxlayer": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "removePer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "animation": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "cantUseItem": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "turnInterval": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "damageType": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "damageValue": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "additionMultiple": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "useAddition": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "additionMultipleType": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "whenOvertimeEvent": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "elementType": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "maxHP": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "maxSP": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "atk": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "def": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "mag": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "magDef": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "hit": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "crit": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "magCrit": {
+      "varType": 0,
+      "value": 10,
+      "copy": false
+    },
+    "maxHPPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "maxSPPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "atkPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "defPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "magPer": {
+      "varType": 0,
+      "value": 125,
+      "copy": false
+    },
+    "magDefPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "hitPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "critPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "magCritPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "specialBattleEffect": {
+      "varType": 9,
+      "value": [],
+      "copy": false
+    },
+    "currentLayer": {
+      "varType": 0,
+      "value": 1,
+      "copy": false
+    },
+    "fromBattlerID": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "currentDuration": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "描述": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "pLabel": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "specialAbility": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "eventSetting": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "cantMove": {
+      "varType": 2,
+      "value": false,
+      "copy": false
+    },
+    "fixedHeteValue": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "damageHatePer": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "moveGrid": {
+      "varType": 0,
+      "value": 0,
+      "copy": false
+    },
+    "moveGridPer": {
+      "varType": 0,
+      "value": 100,
+      "copy": false
+    },
+    "whenAddEvent": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    },
+    "whenRemoveEvent": {
+      "varType": 1,
+      "value": "",
+      "copy": false
+    }
+  },
+  "id": 31
+}

@@ -1,0 +1,350 @@
+{
+    "attrs": {
+        "icon": {
+            "varType": 1,
+            "value": "asset/image/picture/icon/skill/Blast_big.png",
+            "copy": false
+        },
+        "intro": {
+            "varType": 1,
+            "value": "[炎]召唤一颗巨型火球对敌方进行一次火焰魔法攻击。造成 ${Math.floor(a.MAG*s.additionMultiple*0.01+s.damageValue)} 伤害",
+            "copy": false
+        },
+        "skillType": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "targetType": {
+            "varType": 0,
+            "value": 2,
+            "copy": false
+        },
+        "effectRange1": {
+            "varType": 0,
+            "value": 5,
+            "copy": false
+        },
+        "effectRange2A": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "effectRange2B": {
+            "varType": 0,
+            "value": 4,
+            "copy": false
+        },
+        "effectRange3": {
+            "varType": 12,
+            "value": {},
+            "copy": false
+        },
+        "releaseRange": {
+            "varType": 12,
+            "value": {},
+            "copy": false
+        },
+        "totalCD": {
+            "varType": 0,
+            "value": 3,
+            "copy": false
+        },
+        "hit": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "costSP": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "useDamage": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "releaseFrame": {
+            "varType": 0,
+            "value": 8,
+            "copy": false
+        },
+        "releaseActionID": {
+            "varType": 0,
+            "value": 6,
+            "copy": false
+        },
+        "effectRangeType": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "mustOpenSpace": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "costActionPower": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "useHate": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "releaseTimes": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "isThroughObstacle": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "costHP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "bulletSpeed": {
+            "varType": 0,
+            "value": 99999,
+            "copy": false
+        },
+        "bulletAnimation": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "damageType": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "damageValue": {
+            "varType": 0,
+            "value": 200,
+            "copy": false
+        },
+        "additionMultiple": {
+            "varType": 0,
+            "value": 175,
+            "copy": false
+        },
+        "useAddition": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "additionMultipleType": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "elementType": {
+            "varType": 0,
+            "value": 1,
+            "copy": false
+        },
+        "fixedHeteValue": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "damageHatePer": {
+            "varType": 0,
+            "value": 100,
+            "copy": false
+        },
+        "releaseAnimation": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "hitAnimation": {
+            "varType": 0,
+            "value": 48,
+            "copy": false
+        },
+        "targetGridAnimation": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "targetGridAniLayer": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "passiveAttribute": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "passiveStatus": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "specialAbility": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "statusSetting": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "eventSetting": {
+            "varType": 2,
+            "value": true,
+            "copy": false
+        },
+        "addStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "removeStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "useEvent": {
+            "varType": 1,
+            "value": "演出效果\u0005156255852228_0.6763971647961693\u0005[[22,-4,0,[[48,0,1,0],[47,0,6,1,true,true]],true,1,false,1,{\"___cmdID\":\"155152825591_0.9833252809941875\"}],[60005,{\"74577032484_0.13493609495640202\":\"asset/audio/se/interlude/EncounterTheEnemy_1.ogg,1,0.51\",\"74578579319_0.15291120828407134\":1,\"91116691228_0.19588751423957396\":1,\"91116362027_0.0524615397494288\":false,\"74587606222_0.5579985331498136\":false,\"74587987674_0.5977703161602927\":false},\"155152825591_0.5690326321297494\"],[40001,{\"24538808102_0.9970934946254328\":3,\"49612012650_0.7509974095572418\":1,\"24538808435_0.6230939565765392\":\"asset/image/picture/body/Satan.png\",\"49518385245_0.9308839798952664\":1,\"49141521249_0.2965750598394892\":180,\"49519573910_0.08853124862540018\":1,\"49141521416_0.0884961804795068\":853,\"49519590084_0.3058131165318816\":1,\"49150249927_0.6881795527970145\":100,\"49519636189_0.2521948025226537\":1,\"49232462793_0.7622411974016037\":1240,\"49520636693_0.8404154506260593\":1,\"49232464582_0.12430969584603324\":1754,\"49520744730_0.6026838995761481\":1,\"49232999716_0.2133484967243402\":0,\"49520812848_0.5734967173507821\":1,\"49234813142_0.3142568229981375\":1,\"49520873912_0.5927053372462527\":1,\"49249262086_0.4763525036126073\":false,\"49233147770_0.6353950190434796\":0,\"49234859651_0.6035613922030387\":0,\"49599648354_0.3738368266485066\":false,\"49518248081_0.4367396293869368\":false,\"49599660535_0.0823572381286597\":\"\",\"49518318443_0.5988810162565685\":false,\"49519399740_0.07229930251623617\":false,\"49519436070_0.9418611019894294\":false,\"49519475735_0.9428268094401824\":false,\"49519529748_0.519982170810438\":false,\"49520771123_0.27311479097864666\":false,\"49611947752_0.41521729946538755\":false},\"155152825591_0.23264920263207856\"],[40002,{\"24538808102_0.9970934946254328\":3,\"49612329479_0.7433565589142674\":1,\"49541474395_0.999063634948089\":1,\"49541474395_0.4302897217422976\":180,\"49541474396_0.5364167299087121\":\"\",\"49141521249_0.2965750598394892\":180,\"49519573910_0.08853124862540018\":1,\"49141521416_0.0884961804795068\":-160,\"49519590084_0.3058131165318816\":1,\"49150249927_0.6881795527970145\":100,\"49519636189_0.2521948025226537\":1,\"49232462793_0.7622411974016037\":1240,\"49520636693_0.8404154506260593\":1,\"49232464582_0.12430969584603324\":1754,\"49520744730_0.6026838995761481\":1,\"49232999716_0.2133484967243402\":0,\"49520812848_0.5734967173507821\":1,\"49234813142_0.3142568229981375\":1,\"49520873912_0.5927053372462527\":1,\"49249262086_0.4763525036126073\":false,\"49233147770_0.6353950190434796\":0,\"49234859651_0.6035613922030387\":0,\"49594771755_0.963684096315716\":false,\"49518248081_0.4367396293869368\":false,\"49595153167_0.8002073773406164\":\"\",\"49519399740_0.07229930251623617\":false,\"49519436070_0.9418611019894294\":false,\"49519475735_0.9428268094401824\":false,\"49519529748_0.519982170810438\":false,\"49520771123_0.27311479097864666\":false,\"49612315725_0.0667574286485002\":false},\"155152825591_0.10375549083235014\"],[17,180,0,false,0,{\"___cmdID\":\"155152825591_0.8412837834492488\"}],[40002,{\"24538808102_0.9970934946254328\":3,\"49612329479_0.7433565589142674\":1,\"49541474395_0.999063634948089\":1,\"49541474395_0.4302897217422976\":60,\"49541474396_0.5364167299087121\":\"\",\"49141521249_0.2965750598394892\":-842,\"49519573910_0.08853124862540018\":1,\"49141521416_0.0884961804795068\":-1429,\"49519590084_0.3058131165318816\":1,\"49150249927_0.6881795527970145\":100,\"49519636189_0.2521948025226537\":1,\"49232462793_0.7622411974016037\":3355,\"49520636693_0.8404154506260593\":1,\"49232464582_0.12430969584603324\":4745,\"49520744730_0.6026838995761481\":1,\"49232999716_0.2133484967243402\":0,\"49520812848_0.5734967173507821\":1,\"49234813142_0.3142568229981375\":0,\"49520873912_0.5927053372462527\":1,\"49249262086_0.4763525036126073\":false,\"49233147770_0.6353950190434796\":0,\"49234859651_0.6035613922030387\":0,\"49594771755_0.963684096315716\":false,\"49518248081_0.4367396293869368\":false,\"49595153167_0.8002073773406164\":\"\",\"49519399740_0.07229930251623617\":false,\"49519436070_0.9418611019894294\":false,\"49519475735_0.9428268094401824\":false,\"49519529748_0.519982170810438\":false,\"49520771123_0.27311479097864666\":false,\"49612315725_0.0667574286485002\":false},\"155152825591_0.8484605971706862\"],[17,60,0,false,0,{\"___cmdID\":\"155152825591_0.17543085259645874\"}],[22,-4,0,[[47,0,1,1,false,true],[42,0]],true,1,false,1,{\"___cmdID\":\"155152825591_0.6864093693012108\"}],[-1,{\"___cmdID\":\"155152824381_0.14111242133532254\"}]]",
+            "copy": false
+        },
+        "hitEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "hitOpenSpaceEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "releaseEvent": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "maxHP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "maxSP": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "atk": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "def": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "mag": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "magDef": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "hit1": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "moveGrid": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "agi": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "crit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "magCrit": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "selfStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "selfImmuneStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "hitTargetSelfAddStatus": {
+            "varType": 6,
+            "value": [],
+            "copy": false
+        },
+        "specialBattleEffect": {
+            "varType": 9,
+            "value": [],
+            "copy": false
+        },
+        "currentCD": {
+            "varType": 0,
+            "value": 0,
+            "copy": false
+        },
+        "infoLegend": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "pLabel": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "label1": {
+            "varType": 1,
+            "value": "",
+            "copy": false
+        },
+        "keepHurtAction": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        },
+        "waitReleaseAnimationOver": {
+            "varType": 2,
+            "value": false,
+            "copy": false
+        }
+    },
+    "id": 9
+}

@@ -1,0 +1,170 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "52583646072_0.8877149946093588",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "装备图标框",
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 100,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "",
+                "grid9": "25,25,25,25,0",
+                "flip": null,
+                "pivotType": 0,
+                "children": [
+                    {
+                        "id": "154924536694_0.8060678845617144",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "道具背景",
+                        "x": 0,
+                        "y": 0,
+                        "width": 100,
+                        "height": 100,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/icon_bg_normal.png",
+                        "grid9": "45,45,45,45,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "111274385196_0.7293158444624506",
+                        "condition": [],
+                        "type": "UIString",
+                        "name": "partName",
+                        "x": 10,
+                        "y": 38,
+                        "width": 80,
+                        "height": 24,
+                        "opacity": 0.5,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": false,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "text": "武器",
+                        "fontSize": 18,
+                        "color": "#331f0f",
+                        "bold": true,
+                        "italic": false,
+                        "smooth": true,
+                        "align": 1,
+                        "valign": 1,
+                        "leading": 0,
+                        "letterSpacing": 0,
+                        "font": "Source_Han_Sans",
+                        "wordWrap": true,
+                        "overflow": 0,
+                        "shadowEnabled": null,
+                        "shadowColor": "#000000",
+                        "shadowDx": 1,
+                        "shadowDy": 1,
+                        "stroke": 0,
+                        "strokeColor": "#000000",
+                        "onChangeFragEvent": null
+                    },
+                    {
+                        "id": "52583685591_0.38586833036710777",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "icon",
+                        "x": 17,
+                        "y": 17,
+                        "width": 65,
+                        "height": 65,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": true,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/icon/equipment/Sword_1.png",
+                        "grid9": "0,0,0,0,0",
+                        "flip": null,
+                        "pivotType": 0
+                    },
+                    {
+                        "id": "154924536694_0.07189566886242904",
+                        "condition": [],
+                        "type": "UIBitmap",
+                        "name": "道具框",
+                        "x": 0,
+                        "y": 0,
+                        "width": 100,
+                        "height": 100,
+                        "opacity": 1,
+                        "rotation": 0,
+                        "show": true,
+                        "mouseEventEnabledData": true,
+                        "materialData": [
+                            {
+                                "materials": []
+                            }
+                        ],
+                        "mouseEventEnabledInEditor": true,
+                        "lock": false,
+                        "showOnEditor": true,
+                        "hasCommand": [],
+                        "isOpen": true,
+                        "image": "asset/image/picture/control/icon_frame.png",
+                        "grid9": "45,45,45,45,0",
+                        "flip": null,
+                        "isTile": null,
+                        "pivotType": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "id": 1012,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

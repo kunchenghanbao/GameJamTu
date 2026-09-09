@@ -1,0 +1,153 @@
+{
+    "root": {
+        "children": [
+            {
+                "id": "52583161031_0.3169195930666502",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "avatarbg",
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 120,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/prepare_normal.png",
+                "grid9": "25,25,25,25,0",
+                "flip": null,
+                "pivotType": 0
+            },
+            {
+                "id": "154932662977_0.3241456229542534",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "底影",
+                "x": 29,
+                "y": 80,
+                "width": 47,
+                "height": 9,
+                "opacity": 0.5,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": false,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/virtualBtnBg.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "52583052674_0.6377474248362618",
+                "condition": [],
+                "type": "UIAvatar",
+                "name": "avatar",
+                "x": 52,
+                "y": 81,
+                "width": 192,
+                "height": 192,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "avatarID": 1,
+                "scaleNumberX": 1,
+                "scaleNumberY": 1,
+                "orientationIndex": 0,
+                "avatarFPS": 12,
+                "playOnce": false,
+                "isPlay": true,
+                "avatarFrame": 1,
+                "actionID": 1,
+                "avatarHue": 0
+            },
+            {
+                "id": "52759337262_0.5836118928440586",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "ai",
+                "x": 0,
+                "y": 0,
+                "width": 36,
+                "height": 36,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/ai.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            },
+            {
+                "id": "58419647230_0.36345577842807186",
+                "condition": [],
+                "type": "UIBitmap",
+                "name": "inScene",
+                "x": 3,
+                "y": 86,
+                "width": 94,
+                "height": 30,
+                "opacity": 1,
+                "rotation": 0,
+                "show": true,
+                "mouseEventEnabledData": true,
+                "materialData": [
+                    {
+                        "materials": []
+                    }
+                ],
+                "mouseEventEnabledInEditor": true,
+                "lock": true,
+                "showOnEditor": true,
+                "hasCommand": [],
+                "isOpen": true,
+                "image": "asset/image/picture/control/battler.png",
+                "grid9": "0,0,0,0,0",
+                "pivotType": 0
+            }
+        ]
+    },
+    "id": 1032,
+    "instanceClassName": "",
+    "hasRootCommand": [],
+    "lock": true
+}

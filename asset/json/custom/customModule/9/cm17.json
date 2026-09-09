@@ -1,0 +1,13 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/Sword_Q1.png", "copy": false },
+        "intro": { "varType": 1, "value": "供剑士入门练习的粗铁剑，锋刃朴素但结实可靠。", "copy": false },
+        "sell": { "varType": 0, "value": 20, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 1, "copy": false },
+        "type": { "varType": 0, "value": 1, "copy": false },
+        "quality": { "varType": 0, "value": 1, "copy": false },
+        "atk": { "varType": 0, "value": 5, "copy": false }
+    },
+    "id": 17
+}

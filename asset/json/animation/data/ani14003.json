@@ -1,0 +1,136 @@
+{
+    "totalFrame": 20,
+    "imageSources": [
+        null,
+        {
+            "x": 0,
+            "y": 0,
+            "width": 300,
+            "height": 300,
+            "url": "asset/image/animation/light/light3.png"
+        }
+    ],
+    "layers": [
+        {
+            "type": 0,
+            "name": "[#GAME_THE_TARGET_LAYER]",
+            "children": [],
+            "frames": [
+                {
+                    "index": 0,
+                    "frameinterpolationEnabled": true,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "x": 0,
+                    "y": 0,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
+            ],
+            "isHitEffect": false,
+            "ishide": false,
+            "islock": false
+        },
+        {
+            "type": 1,
+            "name": "layer",
+            "children": [],
+            "frames": [
+                {
+                    "index": 0,
+                    "frameinterpolationEnabled": true,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "horizontalReversal": false,
+                    "x": -150,
+                    "y": -150,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "width": 300,
+                    "height": 300,
+                    "imageSource": 1,
+                    "blendModeType": 1
+                },
+                {
+                    "index": 9,
+                    "frameinterpolationEnabled": true,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "horizontalReversal": false,
+                    "x": -250,
+                    "y": -250,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "width": 500,
+                    "height": 500,
+                    "imageSource": 1,
+                    "blendModeType": 1,
+                    "signalId": 0
+                },
+                {
+                    "index": 19,
+                    "frameinterpolationEnabled": true,
+                    "materialData": [
+                        {
+                            "materials": []
+                        }
+                    ],
+                    "horizontalReversal": false,
+                    "x": -150,
+                    "y": -150,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "width": 300,
+                    "height": 300,
+                    "imageSource": 1,
+                    "blendModeType": 1,
+                    "signalId": 0,
+                    "trans": {
+                        "transType": 0,
+                        "loopType": 0,
+                        "timeType": 0,
+                        "timeUnit": 1,
+                        "totalTime": 2,
+                        "tweenType": 0,
+                        "tweenTypeName": "bounceIn",
+                        "curveData": [
+                            [
+                                0,
+                                0,
+                                0,
+                                99,
+                                1,
+                                1,
+                                1,
+                                3
+                            ],
+                            [
+                                0,
+                                100,
+                                100
+                            ]
+                        ],
+                        "refreshInterval": 16
+                    }
+                }
+            ],
+            "isHitEffect": false,
+            "ishide": false,
+            "islock": false
+        }
+    ],
+    "isParticle": false,
+    "id": 14003,
+    "particleData": null
+}

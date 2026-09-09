@@ -1,0 +1,32 @@
+{
+    "preLayer": [
+        {
+            "varName": "ani",
+            "type": 5,
+            "idList": [
+                3
+            ],
+            "isPreView": true,
+            "inEditorShowMode": 0
+        }
+    ],
+    "varAttributes": [],
+    "attrConditions": [],
+    "presetModules": [
+        3
+    ],
+    "serverInstanceClassName": "ServerSceneObject",
+    "clientInstanceClassName": "ProjectSceneObject_1",
+    "supportTriggerTypes": [],
+    "supportStatusPage": false,
+    "id": 15,
+    "editorPreview": {
+        "moduleID": 3,
+        "varName": "ani",
+        "type": 5,
+        "idList": [
+            1,
+            3
+        ]
+    }
+}

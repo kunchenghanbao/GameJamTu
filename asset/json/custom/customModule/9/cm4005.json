@@ -1,0 +1,16 @@
+{
+    "attrs": {
+        "icon": { "varType": 1, "value": "asset/image/picture/icon/equipment/WarmMountain_Feet.png", "copy": false },
+        "intro": { "varType": 1, "value": "【暖山套系】\n四件效果·暖山庇护：最大生命+100，魔法防御+30，攻击力+20，移动力+1；每回合首次完成有效行动后可再动一次。", "copy": false },
+        "sell": { "varType": 0, "value": 600, "copy": false },
+        "sellEnabled": { "varType": 2, "value": true, "copy": false },
+        "partID": { "varType": 0, "value": 5, "copy": false },
+        "type": { "varType": 0, "value": 8, "copy": false },
+        "quality": { "varType": 0, "value": 5, "copy": false },
+        "maxHP": { "varType": 0, "value": 30, "copy": false },
+        "def": { "varType": 0, "value": 8, "copy": false },
+        "magDef": { "varType": 0, "value": 12, "copy": false },
+        "dod": { "varType": 0, "value": 5, "copy": false }
+    },
+    "id": 4005
+}
